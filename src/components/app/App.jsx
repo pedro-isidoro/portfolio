@@ -11,10 +11,10 @@
 !     c - Estudos e Cursos; ✅
         1c - Formação Acadêmica: facul; ✅
         2c - Cursos: Dev em Dobro; ✅
-!     d - Projetos;
-        1d - Gifs;
-        2d - GitHub Repository;
-        3d - Vercel App;
+!     d - Projetos; ✅
+        1d - Gifs; ✅
+        2d - GitHub Repository; ✅
+        3d - Vercel App; ✅
 !     e - Contatos; ✅
         1e - Formulário; ✅
         4e - GitHub; ✅
@@ -27,8 +27,8 @@
 !     a - reset.css; ✅
 !     b - variables.css; ✅
 !     c - style.css; ✅
-!     d - Para cada component;
-!     e - responsive.css; ✅
+!     d - Para cada component;✅
+!     e - responsive.css;
 ?   4 - Criar as funcionalidades JS; ✅
 !     a - React Routes; ✅
         1a - Navegação Interna entre as páginas do Component; ✅

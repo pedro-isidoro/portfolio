@@ -1,16 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import BasicReactQuest from '/src/images/gifs/html-css-javascript-react/quest-react-basico.gif'
+
 import './js-react.css'
 
 function JSReact(){
-    // redirect - redirecionamento na lógica
     const navigate = useNavigate();
 
     const handleHtmlCssProjects = () =>{
         return navigate("/projects/gifs-projects/html-css")
     }
     const handleJSProjects = () =>{
-        // console.log("Contato enviado!")
         return navigate("/projects/gifs-projects/html-css-js")
     }
 

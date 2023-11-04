@@ -6,7 +6,6 @@ import PedroFlix from '/src/images/gifs/html-css-javascript/pedroflix.gif'
 import './javascript.css'
 
 function JavaScript(){
-    // redirect - redirecionamento na lógica
     const navigate = useNavigate();
 
     const handleHtmlCssProjects = () =>{

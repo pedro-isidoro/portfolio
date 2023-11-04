@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import MoviesLibraryGif from '/src/images/gifs/html-css/biblioteca-pessoal.gif'
 import LibraryGif from '/src/images/gifs/html-css/bliblioteca-de-livros-pessoal.gif'
 import AnniversaryGif from '/src/images/gifs/html-css/anniversary-project.gif'
+
 import './html-css.css'
 
 function HtmlCss(){
