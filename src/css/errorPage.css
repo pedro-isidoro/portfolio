@@ -1,0 +1,17 @@
+.error-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-message h1{
+    font-size: 4rem;
+    color: var(--color-default);
+}
+
+.error-message p{
+    font-size: 2.4rem;
+    color: var(--main-color);
+}

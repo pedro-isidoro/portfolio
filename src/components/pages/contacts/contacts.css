@@ -1,0 +1,62 @@
+.contacts .form-contact{
+    width: 55%;
+}
+
+.net-contact .nets, .contacts .contact{
+    color: var(--color-default);
+}
+
+.contacts .contact p, .contacts .contact p span{
+    font-size: 2rem;
+}
+
+/* Nets */
+.contacts .nets-contacts{
+    width: 45%;
+}
+
+.contacts .net-contact .nets{
+    margin-bottom: 2rem;
+}
+
+.contacts .net-contact .nets li a i{
+    font-size: 2.6rem;
+    padding: 1rem;
+    border: 0.2rem solid transparent;
+    border-radius: 50%;
+}
+
+.contacts .net-contact .nets li a i:nth-child(n+1):nth-child(-n+3){
+    margin-right: 2rem;
+}
+
+.contacts .net-contact .nets li a i:hover{
+    cursor: pointer;
+    color: var(--span-color-default);
+    border-color: var(--span-color-default);
+}
+
+.github{
+    color: var(--github-color);
+}
+
+.linkedin{
+    color: var(--linkedin-color);
+}
+
+.instagram{
+    color: var(--instagram-color);
+}
+
+.whatsapp{
+    color: var(--whatsapp-color);
+}
+
+/* Contatos */
+.contacts .contact p:first-child{
+    margin-bottom: 2rem;
+}
+
+.contacts .contact p span{
+    color: var(--span-color-default);
+}

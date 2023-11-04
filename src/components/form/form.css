@@ -1,0 +1,135 @@
+.background-form{
+    height: 50rem;
+    max-width: 60rem;
+    padding: 14rem 2.5rem 1rem 2.5rem;
+    border-radius: 1.2rem;
+    transition: 0.5s ease-in-out;
+    /* Para sumir com os elementos estourados */
+    overflow: hidden; 
+    overflow-y: auto; /* Para fazer o scroll vertical */
+    background-color: var(--header-color);
+}
+
+/* Estilizando o Scrool */
+.background-form::-webkit-scrollbar{
+    width: 1rem;
+    background-color: var(--main-color);
+    border-radius: 1rem;
+}
+
+.background-form::-webkit-scrollbar-thumb{
+    background-color: var(--span-color-default);
+    border-radius: 1rem;
+}
+
+.background-form .title-form{
+    font-size: 2rem;
+}
+
+.background-form .title-form h3{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.background-form .title-form p{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 0.4rem;
+}
+
+.background-form form{
+    width: 100%;
+}
+
+.formulary{
+    padding-top: 4rem;
+}
+
+.formulary .item-formulary label{
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 0 0 0.2rem 0.2rem;
+}
+
+.formulary .item-formulary label span{
+    color: var(--error-color);
+    font-size: 2rem;
+    padding-left: 0.2rem;
+}
+
+.formulary .item-formulary input{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.8rem;
+    border-radius: 0.6rem;
+}
+
+.formulary .item-formulary:nth-child(n+1):nth-child(-n+4){
+    padding-bottom: 1rem;
+}
+
+.formulary .item-formulary textarea{
+    width: 100%;
+    height: 8rem;
+    padding: 0 0.4rem;
+    font-size: 1.8rem;
+    border-radius: 0.6rem;
+    resize: none;
+}
+
+.register{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.register button{
+    font-size: 2rem;
+    width: 100%;
+    padding: 1.2rem 0;
+    border-radius: 1rem;
+    background-color: var(--body-color);
+    color: var(--color-default);
+}
+
+.register button:hover{
+    cursor: pointer;
+}
+
+/*? Aviso */
+.aviso{
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 0.4rem 0 0.4rem 0.2rem;
+    color: var(--error-color);
+}
+
+#div-form-send{
+    display: none;
+}
+
+/*? Quando o formulário é eviado */
+.background-form.formSend{
+    height: 30rem;
+    border-radius: 6rem;
+    max-width: 60rem;
+    padding: 2.5rem;
+}
+
+.formSend .title-form, .formSend form{
+    display: none;
+}
+
+.formSend #div-form-send{
+    height: 100%;
+    display: flex;
+}
+
+#div-form-send h3{
+    font-size: 3.5rem;
+    height: 10rem;
+}
+
+#div-form-send p{
+    font-size: 2rem;
+    text-align: center;
+}

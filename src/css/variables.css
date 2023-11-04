@@ -1,0 +1,19 @@
+:root{
+    --header-color: rgb(30, 7, 114);
+    --body-color: rgb(107, 66, 255);
+    --main-color: rgb(10, 15, 66);
+
+    --color-default: rgb(255, 233, 224);
+    --dark-color: rgb(3, 8, 68);
+    --span-color-default: rgb(90, 208, 255);
+    --error-color: rgb(255, 0, 0);
+
+    --html-color: rgb(236, 131, 45);
+    --css-color: rgb(88, 182, 219);
+    --js-color: rgb(254, 201, 42);
+    
+    --github-color: rgb(255, 255, 255);
+    --linkedin-color: rgb(0, 161, 230);
+    --instagram-color: rgb(255, 53, 87);
+    --whatsapp-color: rgb(40, 207, 40);
+}

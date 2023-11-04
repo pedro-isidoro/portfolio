@@ -1,0 +1,73 @@
+/*? Languages  */
+.skills .languages-skills{
+    width: 100%;
+    height: 40rem;
+    font-size: 4rem;
+}
+
+.skills .languages-skills h2{
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills .languages-skills li{
+    font-size: 2rem;
+    color: var(--span-color-default);
+}
+
+.skills .languages-skills .languages, .skills .languages-skills .library{
+    width: 50%;
+}
+
+.skills .languages-skills .languages ul li, .skills .languages-skills .library ul li {
+    list-style: circle;
+}
+
+.skills .languages-skills .languages p:nth-child(n+1):nth-child(-n+2){
+    margin-bottom: 1rem;
+}
+
+.skills .languages-skills .library p:first-child{
+    margin-bottom: 1rem;
+}
+
+.skills .languages-skills .languages .html{
+    color: var(--html-color);
+}
+
+.skills .languages-skills .languages .css{
+    color: var(--css-color);
+}
+
+.skills .languages-skills .languages .js{
+    color: var(--js-color);
+}
+
+/*? Soft Skills  */
+.skills .soft-skills{
+    width: 100%;
+    height: 40rem;
+    padding: 1rem 2rem;
+}
+
+.skills .soft-skills h2{
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills .soft-skills ul li{
+    list-style: circle;
+}
+
+.skills .soft-skills li{
+    color: var(--span-color-default);
+    font-size: 2rem;
+}
+
+.skills .soft-skills li:nth-child(n+1):nth-child(-n+5){
+    margin-bottom: 1rem;
+}

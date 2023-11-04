@@ -1,0 +1,65 @@
+.projects{
+    gap: 10rem;
+}
+
+.projects .title h2{
+    font-size: 3rem;
+}
+
+.projects .links-projects .link-project{
+    color: var(--span-color-default);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1.4rem;
+}
+
+.projects .links-projects .link-project:hover{
+    cursor: pointer;
+    color: var(--color-default);
+    background-color: var(--header-color);
+}
+
+/* Para os Projetos e suas linguagens */
+.project{
+    max-height: 40rem;
+    min-width: 48rem;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.project h3{
+    font-size: 2.6rem;
+}
+
+.project .image-link{
+    font-size: 2rem;
+}
+
+.project .image-link img{
+    width: 100%;
+}
+
+.project .github-links{
+    gap: 1rem;
+}
+
+.project .github-links a{
+    font-size: 1.9rem;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    color: var(--span-color-default);
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background: none;
+    border: none;
+}
+
+.project .github-links a:hover, .btn:hover{
+    cursor: pointer;
+    color: var(--dark-color);
+    background-color: var(--span-color-default);
+}

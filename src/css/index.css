@@ -1,0 +1,50 @@
+body{
+    background-color: var(--body-color);
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 4rem;
+    border-bottom: 0.2rem solid #000;
+    background-color: var(--header-color);
+}
+
+main{
+    height: 60rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16rem;
+    padding: 0 4rem;
+    border-top: 0.2rem solid #000;
+    background-color: var(--header-color);
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card{
+    height: 56rem;
+    width: 110rem;
+    padding: 2rem 4rem;
+    background-color: var(--main-color);
+    border-radius: 4rem;
+    transition: 0.5s ease-in-out;
+}

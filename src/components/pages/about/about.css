@@ -1,0 +1,51 @@
+.about{
+    gap: 10rem;
+}
+
+/*? ME */
+.about .about-me{
+    text-align: center;
+    font-size: 4rem;
+    width: 40%;
+    color: var(--color-default);
+}
+
+.about .about-me img{
+    width: 65%;
+    border-radius: 50%;
+    margin-bottom: 4rem;
+}
+
+.about .about-me h2{
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about .about-me h3, .about .about-me p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--span-color-default);
+}
+
+/*? TEXT */
+.about .about-text{
+    width: 50%;
+    height: 60%;
+    padding: 1rem 2rem;
+    text-align: justify;
+    color: var(--color-default);
+}
+
+.about .about-text h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about .about-text p span{
+    color: var(--span-color-default);
+}
+
+.about .about-text p, .about .about-text p span{
+    font-size: 2.1rem;
+}

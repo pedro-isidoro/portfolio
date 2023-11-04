@@ -1,0 +1,54 @@
+/*? Academic */
+.studies .academic-studies{
+    width: 60%;
+    padding: 2rem;
+}
+
+.studies .academic-studies .college, .studies .academic-studies .course{
+    margin-bottom: 2rem;
+    justify-content: space-around;
+}
+
+.studies .academic-studies .course{
+    justify-content: space-around;
+}
+
+.studies .academic-studies .college .text, .studies .academic-studies .course .text{
+    width: 30rem;
+}
+
+.studies .academic-studies .college .text h2, .studies .academic-studies .course .text h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.studies .academic-studies .college .text li, .studies .academic-studies .course .text li{
+    font-size: 1.8rem;
+}
+
+.studies .academic-studies .college img, .studies .academic-studies .course img{
+    width: 25%;
+}
+
+/*? Language */
+.studies .language-studies{
+    width: 40%;
+}
+
+.studies .language-studies h2{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.studies .language-studies li{
+    font-size: 2rem;
+}
+
+.studies .language-studies li:first-child{
+    margin-bottom: 0.4rem;
+}
+
+.studies .language-studies li span{
+    font-size: 2rem;
+    color: var(--span-color-default);
+}

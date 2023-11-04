@@ -1,0 +1,17 @@
+.logo h1{
+    color: var(--color-default);
+    font-size: 3.4rem;
+}
+
+.menu .link{
+    color: var(--color-default);
+    font-size: 2rem;
+    padding: 0.8rem 1.7rem;
+}
+
+.menu .link:hover{
+    cursor: pointer;
+    border-radius: 1.8rem;
+    color: var(--span-color-default);
+    background-color: var(--main-color);
+}   
