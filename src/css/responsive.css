@@ -1,0 +1,88 @@
+@media(max-width: 1921px){
+    main{
+        height: 90rem;
+    }
+}
+
+@media(max-width: 1537px){
+    main{
+        height: 64rem;
+    }
+}
+
+@media(max-width: 1367px){
+    main{
+        height: 70rem;
+    }
+}
+
+@media(max-width: 1326px){
+    main{
+        height: 56rem;
+    }
+
+    .main-card{
+        height: 52rem;
+        width: 110rem;
+        padding: 2rem 4rem;
+    }
+}
+
+@media(max-width: 835px){
+    main{
+        min-height: 104rem;
+    }
+
+    .main-card{
+        flex-direction: column;
+        height: 98rem;
+        width: 76rem;
+        padding: 4rem 2rem;
+    }
+
+    .about{
+        gap: 5rem;
+    }
+
+    .about .about-me{
+        width: 70%;
+    }
+
+    .about .about-text{
+        width: 80%;
+        height: 60%;
+        padding: 1rem 2rem;
+    }
+}
+
+@media(max-width: 769px){
+    .header input:checked ~ .menu{
+        margin-right: 0.1rem;
+    }
+
+    .main-card{
+        width: 71rem;
+    }
+}
+
+@media(max-width: 801px){
+    .header{
+        padding: 0 3rem;
+    }
+}
+
+@media(max-width: 601px){
+    .header input:checked ~ .menu{
+        margin-right: 0.2rem;
+    }
+
+    .main-card{
+        width: 54rem;
+    }
+
+    .about .about-me{
+        width: 80%;
+    }
+}
+
+/* Parei de fazer o responsivo no 600px */

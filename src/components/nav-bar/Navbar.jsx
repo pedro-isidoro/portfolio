@@ -3,17 +3,26 @@ import './navbar.css'
 
 function NavBar(){
     return(
-        <header>
+        <header className='header'>
             <div className='logo'>
                 <h1>Portfólio</h1>
             </div>
-            <nav className='menu flex-row'>
+            <nav className='menus flex-column'>
+                <input type="checkbox" id="menu-hamburguer" />
+                
+                <label for="menu-hamburguer">
+                    <div class="menu-2">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
                 {/*Para a navegação com o react router*/}
-                <Link to="/" className='link'>Bio</Link>
-                <Link to="/skills" className='link'>Habilidades</Link>
-                <Link to="/studies" className='link'>Estudos</Link>
-                <Link to="/projects" className='link'>Projetos</Link>
-                <Link to="/contacts" className='link'>Contato</Link>
+                <ul className="menu flex-row">
+                    <li><Link to="/" className='link'>Bio</Link></li>
+                    <li><Link to="/skills" className='link'>Habilidades</Link></li>
+                    <li><Link to="/studies" className='link'>Estudos</Link></li>
+                    <li><Link to="/projects" className='link'>Projetos</Link></li>
+                    <li><Link to="/contacts" className='link'>Contato</Link></li>
+                </ul>
             </nav>
         </header>
     );

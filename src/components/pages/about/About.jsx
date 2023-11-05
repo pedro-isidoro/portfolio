@@ -13,7 +13,7 @@ function About (){
             <div className='about-text flex-column'>
                 <h2>Sobre</h2>
                 <p>
-                    Tenho 19 anos e vivo na Zona Leste de São Paulo. <br />
+                    Moro na Zona Leste de São Paulo.<br />
                     Atualmente estou estudando <span>HTML, CSS e JavaScript</span>. Meus principais hobbies estão entre ir para a academia e ver filmes e séries. <br />
                     Pratiquei por 3 anos e meio Jiu-Jitsu com esse tempo no esporte, aprendi a ter <span>disciplina, rotina, dedicação</span>, além de <span>paciência e respeito </span> pelos mais experientes. E espero crescer ainda mais nesses quesitos, de <span>conhecimento, experiência, cultura e maturidade</span> no meu futuro estágio.
                 </p>

@@ -12,9 +12,10 @@ import HtmlCss from './components/pages/gifs-projects/html-css/HtmlCss.jsx'
 import JSReact from './components/pages/gifs-projects/react/JSReact.jsx'
 import Contacts from './components/pages/contacts/Contacts.jsx'
 
+import './css/variables.css'
 import './css/reset.css'
 import './css/index.css'
-import './css/variables.css'
+import './css/responsive.css'
 
 const router = createBrowserRouter([
   {
