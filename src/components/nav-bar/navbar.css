@@ -100,7 +100,7 @@
         width: 18rem;
         padding: 20px;
         margin-top: 2.2rem;
-        border-top-right-radius: 1.2rem;
+        border-top-right-radius: 4rem;
         background-color: var(--header-color);
     }
 
