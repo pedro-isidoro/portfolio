@@ -5,7 +5,7 @@ function Skills (){
         <section className='skills flex-column main-card'>
             <div className='languages-skills flex-row'>
                 <div className="languages flex-column">
-                    <h2>Linguagens de Programação</h2>
+                    <h2 className='heading-2'>Linguagens de Programação</h2>
                     <ul>
                         <li className="html">HTML5</li>
                         <li className="css">CSS3</li>
@@ -13,7 +13,7 @@ function Skills (){
                     </ul>
                 </div>
                 <div className="library flex-column">
-                    <h2>Bibliotecas</h2>
+                    <h2 className='heading-2'>Bibliotecas</h2>
                     <ul>
                         <li className="react">React (Intermediário)</li>
                         <li className="react-hook-form">React Hook Form (Básico)</li>
@@ -22,7 +22,7 @@ function Skills (){
                 </div>
             </div>
             <div className='soft-skills flex-column'>
-                <h2>Competências Comportamentais</h2>
+                <h2 className='heading-2'>Competências Comportamentais</h2>
                 <ul>
                     <li>Boa Comunicação</li>
                     <li>Honestidade</li>

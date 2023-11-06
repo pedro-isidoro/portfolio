@@ -2,10 +2,6 @@
     gap: 10rem;
 }
 
-.projects .title h2{
-    font-size: 3rem;
-}
-
 .projects .links-projects .link-project{
     color: var(--span-color-default);
     font-size: 2rem;

@@ -7,7 +7,6 @@
 
 .skills .languages-skills h2{
     width: 100%;
-    font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -21,7 +20,7 @@
     width: 50%;
 }
 
-.skills .languages-skills .languages ul li, .skills .languages-skills .library ul li {
+.skills .languages-skills .languages ul li, .skills .languages-skills .library ul li, .skills .soft-skills ul li{
     list-style: circle;
 }
 
@@ -54,13 +53,8 @@
 
 .skills .soft-skills h2{
     width: 100%;
-    font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
-}
-
-.skills .soft-skills ul li{
-    list-style: circle;
 }
 
 .skills .soft-skills li{

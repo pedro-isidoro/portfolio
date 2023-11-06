@@ -5,7 +5,7 @@ function Projects(){
     return(
         <section className='projects flex-column main-card'>
             <div className="title">
-                <h2>Projetos</h2>
+                <h2 className='heading-2'>Projetos</h2>
             </div>
             <ul className='links-projects flex-row'>
                 <Link className='link-project' to="/projects/gifs-projects/html-css">HTML/CSS</Link>

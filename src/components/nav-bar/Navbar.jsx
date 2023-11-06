@@ -10,9 +10,9 @@ function NavBar(){
             <nav className='menus flex-column'>
                 <input type="checkbox" id="menu-hamburguer" />
                 
-                <label for="menu-hamburguer">
-                    <div class="menu-2">
-                        <span class="hamburguer"></span>
+                <label htmlFor="menu-hamburguer">
+                    <div className="menu-2">
+                        <span className="hamburguer"></span>
                     </div>
                 </label>
                 {/*Para a navegação com o react router*/}

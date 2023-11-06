@@ -1,7 +1,7 @@
 .background-form{
-    height: 50rem;
+    height: 96%;
     max-width: 60rem;
-    padding: 14rem 2.5rem 1rem 2.5rem;
+    padding: 12rem 2.5rem 1rem 2.5rem;
     border-radius: 1.2rem;
     transition: 0.5s ease-in-out;
     /* Para sumir com os elementos estourados */

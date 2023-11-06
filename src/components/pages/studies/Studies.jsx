@@ -31,7 +31,7 @@ function Studies(){
                     </div>
                 </div>
                 <div className="language-studies flex-column">
-                    <h2>Idiomas</h2>
+                    <h2 className='heading-2'>Idiomas</h2>
                     <ul>
                         <li>Português <span>Nativo</span></li>
                         <li>Inglês <span>Básico a Intermediário</span></li>

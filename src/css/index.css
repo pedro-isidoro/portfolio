@@ -40,6 +40,10 @@ footer{
     align-items: center;
 }
 
+.heading-2{
+    font-size: 3rem;
+}
+
 .main-card{
     height: 56rem;
     width: 110rem;

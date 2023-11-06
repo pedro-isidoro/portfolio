@@ -28,6 +28,23 @@
     }
 }
 
+@media(max-width: 1025px){
+    main{
+        height: 56rem;
+    }
+
+    .main-card{
+        height: 48rem;
+        width: 96rem;
+        padding: 2rem;
+    }
+
+    .about .about-me .heading-2{
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
+}
+
 @media(max-width: 835px){
     main{
         height: 104rem;
@@ -52,6 +69,25 @@
         width: 80%;
         height: 60%;
         padding: 1rem 2rem;
+    }
+
+    .skills .languages-skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills .languages-skills .languages, .skills .languages-skills .library{
+        height: 50%;
+        width: 100%;
+    }
+
+    .skills .languages-skills .heading-2{
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .skills .languages-skills, .skills .soft-skills{
+        width: 100%;
     }
 }
 
@@ -153,7 +189,7 @@
         padding: 0;
     }
 
-    .about .about-me h2{
+    .about .about-me .heading-2{
         font-size: 2.4rem;
         margin-bottom: 1rem;
     }
@@ -166,13 +202,32 @@
         margin-bottom: 1rem;
     }
 
-    .about .about-text h2{
+    .about .about-text .heading-2{
         font-size: 2.4rem;
         margin-bottom: 3rem;
     }
     
     .about .about-text p, .about .about-text p span{
         font-size: 1.8rem;
+    }
+
+    .skills .languages-skills .heading-2, .skills .soft-skills .heading-2{
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width: 392px){
+    .skills .languages-skills .languages .heading-2{
+        font-size: 2.8rem;
+    }
+
+    .skills .soft-skills{
+        padding: 1rem 0;
+    }
+
+    .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
+        width: 100%;
+        padding-left: 9rem;
     }
 }
 
@@ -181,9 +236,15 @@
         width: 100%;
     }
 
-    .about .about-me h2{
+    .about .about-me .heading-2{
         font-size: 2.2rem;
         margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 367px){
+    .skills .languages-skills .languages .heading-2, .skills .soft-skills .heading-2{
+        font-size: 2.6rem;
     }
 }
 
@@ -191,11 +252,21 @@
     .about .about-me h3{
         font-size: 1.8rem;
     }
+
+    .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
+        width: 100%;
+        padding-left: 8rem;
+    }
 }
 
 @media(max-width: 350px){
-    .about .about-me h2{
+    .about .about-me .heading-2{
         font-size: 2rem;
+    }
+
+    .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
+        width: 100%;
+        padding-left: 3rem;
     }
 }
 
@@ -210,7 +281,7 @@
 }
 
 @media(max-width: 301px){
-    .about .about-me h2{
+    .about .about-me .heading-2{
         font-size: 1.99rem;
     }
 }
