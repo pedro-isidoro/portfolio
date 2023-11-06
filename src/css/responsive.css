@@ -55,6 +55,45 @@
     }
 }
 
+@media (max-width: 801px){
+    .header{
+        padding: 0 3rem;
+    }
+
+    .header .menu-2{
+        display: block;
+    }
+
+    .header nav .menu{
+        display: none;
+    }
+    
+    .header nav{
+        position: absolute;
+        top: 8px;
+        right: 2rem;
+        z-index: 1;
+    }
+
+    .header input:checked ~ label .menu-2{
+        margin-left: 12rem;
+    }
+
+    .header input:checked ~ .menu{
+        display: block;
+        text-align: center;
+        width: 18rem;
+        padding: 20px;
+        margin-top: 2.2rem;
+        border-top-right-radius: 4rem;
+        background-color: var(--header-color);
+    }
+
+    .header input:checked ~ .menu li:nth-child(n+1):nth-child(-n+4){
+        margin-bottom: 1.4rem;
+    }
+}
+
 @media(max-width: 769px){
     .header input:checked ~ .menu{
         margin-right: 0.1rem;
@@ -62,12 +101,6 @@
 
     .main-card{
         width: 71rem;
-    }
-}
-
-@media(max-width: 801px){
-    .header{
-        padding: 0 3rem;
     }
 }
 
@@ -106,11 +139,12 @@
     }
 
     .about{
-        gap: 3rem;
+        gap: 0;
     }
 
     .about .about-me{
         width: 90%;
+        height: 40%;
     }
     
     .about .about-text{
@@ -126,6 +160,9 @@
     
     .about .about-me h3, .about .about-me p{
         font-size: 1.8rem;
+    }
+
+    .about .about-me h3{
         margin-bottom: 1rem;
     }
 
@@ -139,4 +176,41 @@
     }
 }
 
-/* Parei de fazer o responsivo no 600px */
+@media(max-width: 376px){
+    .about .about-me, .about .about-text{
+        width: 100%;
+    }
+
+    .about .about-me h2{
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 357px){
+    .about .about-me h3{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 350px){
+    .about .about-me h2{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 329px){
+    .about .about-me h3{
+        font-size: 1.6rem;
+    }
+
+    .about .about-text p, .about .about-text p span{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 301px){
+    .about .about-me h2{
+        font-size: 1.99rem;
+    }
+}

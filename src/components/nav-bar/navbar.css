@@ -77,34 +77,3 @@
     transform: rotate(90deg);
     bottom: 0;
 }
-
-@media (max-width: 800px){
-    .header .menu-2{
-        display: block;
-    }
-
-    .header nav .menu{
-        display: none;
-    }
-    
-    .header nav{
-        position: absolute;
-        top: 8px;
-        right: 2rem;
-        z-index: 1;
-    }
-
-    .header input:checked ~ .menu{
-        display: block;
-        text-align: center;
-        width: 18rem;
-        padding: 20px;
-        margin-top: 2.2rem;
-        border-top-right-radius: 4rem;
-        background-color: var(--header-color);
-    }
-
-    .header input:checked ~ .menu li:nth-child(n+1):nth-child(-n+4){
-        margin-bottom: 1.4rem;
-    }
-}
