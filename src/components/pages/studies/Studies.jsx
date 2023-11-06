@@ -21,7 +21,7 @@ function Studies(){
                     <div className="course flex-row">
                         <img src={courseImage} alt="Imagem do Curso DevQuest" />
                         <div className="text">
-                            <h2>DeQuest - Dev em Dobro</h2>
+                            <h2>DevQuest - Dev em Dobro</h2>
                             <ul>
                                 <li>Treinamento em desenvolvimento web com mentoria e suporte.</li>
                                 <li>Início: Dezembro 2022</li>

@@ -1,5 +1,6 @@
 :root{
     --header-color: rgb(30, 7, 114);
+    --header-color-pop: rgba(30, 7, 114, 0.9);
     --body-color: rgb(107, 66, 255);
     --main-color: rgb(10, 15, 66);
 

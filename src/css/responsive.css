@@ -89,6 +89,15 @@
     .skills .languages-skills, .skills .soft-skills{
         width: 100%;
     }
+
+    .studies{
+        gap: 4rem;
+    }
+
+    .studies .academic-studies, .studies .language-studies{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 801px){
@@ -112,17 +121,18 @@
     }
 
     .header input:checked ~ label .menu-2{
-        margin-left: 12rem;
+        margin-left: 11rem;
     }
 
     .header input:checked ~ .menu{
         display: block;
         text-align: center;
-        width: 18rem;
+        width: 17rem;
         padding: 20px;
         margin-top: 2.2rem;
         border-top-right-radius: 4rem;
-        background-color: var(--header-color);
+        border-bottom-left-radius: 4rem;
+        background-color: var(--header-color-pop);
     }
 
     .header input:checked ~ .menu li:nth-child(n+1):nth-child(-n+4){
@@ -214,6 +224,27 @@
     .skills .languages-skills .heading-2, .skills .soft-skills .heading-2{
         margin-bottom: 2rem;
     }
+
+    .studies .academic-studies{
+        padding: 0;
+    }
+
+    .studies .academic-studies .college, .studies .academic-studies .course{
+        flex-direction: column;
+    }
+
+    .studies .academic-studies .college img, .studies .academic-studies .course img{
+        width: 40%;
+        margin-bottom: 3rem;
+    }
+
+    .studies .academic-studies .college .text, .studies .academic-studies .course .text{
+        width: 90%;
+    }
+
+    .studies .academic-studies .college .text{
+        margin-bottom: 2rem;
+    }
 }
 
 @media(max-width: 392px){
@@ -267,6 +298,18 @@
     .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
         width: 100%;
         padding-left: 3rem;
+    }
+
+    .studies .academic-studies .college .text h2, .studies .academic-studies .course .text h2{
+        font-size: 2.2rem;
+    }
+
+    .studies .academic-studies .college .text li, .studies .academic-studies .course .text li{
+        font-size: 1.8rem;
+    }
+
+    .studies .language-studies li, .studies .language-studies li span{
+        font-size: 1.8rem;
     }
 }
 
