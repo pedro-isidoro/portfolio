@@ -98,6 +98,33 @@
         width: 100%;
         height: auto;
     }
+
+    .html-css-projects, .js-project, .react-project{
+        gap: 3rem;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        flex-direction: column;
+        gap: 20rem;
+        height: 80rem;
+        width: 80%;
+        padding: 29rem 1rem 0 0;
+        overflow-y: auto;
+    }
+
+    .html-css-project::-webkit-scrollbar, .js-project::-webkit-scrollbar, .react-project::-webkit-scrollbar{
+        width: 0.8rem;
+    }
+    
+    .project{
+        min-height: 33%;
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .btn{
+        font-size: 2.6rem;
+    }
 }
 
 @media (max-width: 801px){
@@ -161,6 +188,16 @@
 
     .about .about-me{
         width: 80%;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        height: 80rem;
+        width: 100%;
+        padding: 26rem 0 0 0;
+    }
+
+    .project .image-link{
+        width: 90%;
     }
 }
 
@@ -245,6 +282,27 @@
     .studies .academic-studies .college .text{
         margin-bottom: 2rem;
     }
+
+    .projects .heading-2{
+        font-size: 3.4rem;
+    }
+
+    .projects .links-projects{
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .projects .links-projects .link-project{
+        font-size: 2.8rem;
+    }
+
+    .projects .links-projects .link-project:nth-child(n+1):nth-child(-n+2){
+        margin-bottom: 1rem;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        gap: 12rem;
+    }
 }
 
 @media(max-width: 392px){
@@ -279,6 +337,16 @@
     }
 }
 
+@media(max-width: 362px){
+    .project .github-links a{
+        font-size: 1.8rem;
+    }
+
+    .btn{
+        font-size: 2.4rem;
+    }
+}
+
 @media(max-width: 357px){
     .about .about-me h3{
         font-size: 1.8rem;
@@ -287,6 +355,14 @@
     .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
         width: 100%;
         padding-left: 8rem;
+    }
+
+    .projects .heading-2{
+        font-size: 3.2rem;
+    }
+
+    .projects .links-projects .link-project{
+        font-size: 2.4rem;
     }
 }
 
@@ -311,6 +387,32 @@
     .studies .language-studies li, .studies .language-studies li span{
         font-size: 1.8rem;
     }
+
+    .project .github-links{
+        gap: 0.4rem;
+    }
+}
+
+@media(max-width: 345px){
+    .project .github-links{
+        gap: 0;
+    }
+}
+
+@media(max-width: 332px){
+    .project .github-links{
+        text-align: center;
+    }
+
+    .project .github-links a{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 326px){
+    .btn{
+        font-size: 2.2rem;
+    }
 }
 
 @media(max-width: 329px){
@@ -320,6 +422,12 @@
 
     .about .about-text p, .about .about-text p span{
         font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 321px){
+    .btn{
+        font-size: 2rem;
     }
 }
 
