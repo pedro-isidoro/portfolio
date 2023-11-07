@@ -387,6 +387,10 @@
     .contacts .nets-contacts{
         width: 100%;
     }
+
+    #div-form-send h3{
+        font-size: 2.8rem;
+    }
 }
 
 @media(max-width: 392px){
@@ -405,6 +409,10 @@
 
     .html-css-project, .js-project{
         padding: 17rem 0 0 0;
+    }
+
+    #div-form-send h3{
+        font-size: 2.5rem;
     }
 }
 
@@ -433,6 +441,14 @@
     .contacts .contact p, .contacts .contact p span{
         font-size: 1.9rem;
     }
+
+    .background-form.formSend{
+        height: 25rem;
+    }
+
+    #div-form-send h3{
+        height: 8rem;
+    }
 }
 
 @media(max-width: 362px){
@@ -442,6 +458,14 @@
 
     .btn{
         font-size: 2.4rem;
+    }
+
+    #div-form-send h3{
+        font-size: 2.4rem;
+    }
+    
+    #div-form-send p{
+        font-size: 1.9rem;
     }
 }
 
@@ -490,6 +514,14 @@
     }
 
     .background-form .title-form p{
+        font-size: 1.8rem;
+    }
+
+    #div-form-send h3{
+        font-size: 2rem;
+    }
+    
+    #div-form-send p{
         font-size: 1.8rem;
     }
 }
@@ -549,5 +581,13 @@
 
     .contacts .contact p, .contacts .contact p span{
         font-size: 1.75rem;
+    }
+
+    #div-form-send h3{
+        font-size: 1.8rem;
+    }
+    
+    #div-form-send p{
+        font-size: 1.6rem;
     }
 }
