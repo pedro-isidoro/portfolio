@@ -211,7 +211,7 @@
     }
 
     main{
-        height: 96rem;
+        height: auto;
         margin-top: 3rem;
     }
     
@@ -221,8 +221,12 @@
         border-end-end-radius: 0rem;
     }
 
+    .main-about-card{
+        max-height: 84rem;
+    }
+
     .about{
-        gap: 0;
+        gap: 8rem;
     }
 
     .about .about-me{
@@ -258,8 +262,20 @@
         font-size: 1.8rem;
     }
 
+    .main-skills-card{
+        max-height: 76rem;
+    }
+
+    .skills .languages-skills{
+        gap: 1rem;
+    }
+
     .skills .languages-skills .heading-2, .skills .soft-skills .heading-2{
         margin-bottom: 2rem;
+    }
+
+    .main-studies-card{
+        max-height: 86rem;
     }
 
     .studies .academic-studies{
@@ -283,12 +299,22 @@
         margin-bottom: 2rem;
     }
 
+    .project h3, .project .github-links{
+        text-align: center;
+    }
+
+    .main-projects-card{
+        gap: 7rem;
+        max-height: 50rem;
+        border-end-start-radius: 4rem;
+        border-end-end-radius: 4rem;
+    }
+
     .projects .heading-2{
         font-size: 3.4rem;
     }
 
     .projects .links-projects{
-        /* display: flex; */
         flex-direction: column;
     }
 
@@ -298,6 +324,15 @@
 
     .projects .links-projects .link-project:nth-child(n+1):nth-child(-n+2){
         margin-bottom: 1rem;
+    }
+
+    .main-projects-html-css-card, .main-projects-html-css-js-card, .main-projects-html-css-js-react-card{
+        max-height: 80rem;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        height: 80rem;
+        padding: 16rem 0 0 0;
     }
 
     .html-css-project, .js-project, .react-project{
@@ -318,6 +353,10 @@
         width: 100%;
         padding-left: 9rem;
     }
+
+    .html-css-project, .js-project, .react-project{
+        padding: 15rem 0 0 0;
+    }
 }
 
 @media(max-width: 376px){
@@ -334,6 +373,10 @@
 @media(max-width: 367px){
     .skills .languages-skills .languages .heading-2, .skills .soft-skills .heading-2{
         font-size: 2.6rem;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        padding: 14rem 0 0 0;
     }
 }
 
@@ -400,18 +443,8 @@
 }
 
 @media(max-width: 332px){
-    .project .github-links{
-        text-align: center;
-    }
-
     .project .github-links a{
         font-size: 1.7rem;
-    }
-}
-
-@media(max-width: 326px){
-    .btn{
-        font-size: 2.2rem;
     }
 }
 
@@ -422,6 +455,16 @@
 
     .about .about-text p, .about .about-text p span{
         font-size: 1.7rem;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        padding: 15rem 0 0 0;
+    }
+}
+
+@media(max-width: 326px){
+    .btn{
+        font-size: 2.2rem;
     }
 }
 
@@ -434,5 +477,9 @@
 @media(max-width: 301px){
     .about .about-me .heading-2{
         font-size: 1.99rem;
+    }
+
+    .html-css-project, .js-project, .react-project{
+        padding: 16rem 0 0 0;
     }
 }

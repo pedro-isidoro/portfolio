@@ -17,7 +17,7 @@ function HtmlCss(){
     }
 
     return(
-        <section className='html-css-projects flex-column main-card'>
+        <section className='html-css-projects flex-column main-card main-projects-html-css-card'>
                 <div className="html-css-project flex-row">
                     <div className="project flex-column">
                         <h3>"Biblioteca" de séries</h3>

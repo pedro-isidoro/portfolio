@@ -3,7 +3,7 @@ import './contacts.css'
 
 function Contacts(){
     return(
-        <section className='contacts flex-row main-card' id='form'>
+        <section className='contacts flex-row main-card main-projects-contacts-card' id='form'>
             <Formulary className='form-contact'/>
             <div className="nets-contacts flex-column">
                 <div className='net-contact'>

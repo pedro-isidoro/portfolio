@@ -5,7 +5,7 @@ import './studies.css'
 function Studies(){
     return(
         <>
-            <section className='studies flex-row main-card'>
+            <section className='studies flex-row main-card main-studies-card'>
                 <div className="academic-studies">
                     <div className="college flex-row">
                         <img src={collegeImage} alt="Imagem da Faculdade" />

@@ -3,7 +3,7 @@ import image from '/src/images/Foto-minha.jpg'
 
 function About (){
     return(
-        <section className='about flex-row main-card'>
+        <section className='about flex-row main-card main-about-card'>
             <div className='about-me flex-column'>
                 <img src={image} alt="Imagem da minha pessoa" />
                 <h2 className='heading-2'>Pedro Luis De Souza Isidoro</h2>

@@ -3,7 +3,7 @@ import './projects.css'
 
 function Projects(){
     return(
-        <section className='projects flex-column main-card'>
+        <section className='projects flex-column main-card main-projects-card'>
             <div className="title">
                 <h2 className='heading-2'>Projetos</h2>
             </div>

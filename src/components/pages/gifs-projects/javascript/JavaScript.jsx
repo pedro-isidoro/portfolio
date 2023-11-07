@@ -16,7 +16,7 @@ function JavaScript(){
     }
 
     return(
-        <section className='js-projects flex-column main-card'>
+        <section className='js-projects flex-column main-card main-projects-html-css-js-card'>
             <div className="js-project flex-row">
                 <div className="project flex-column">
                     <h3>Gerador de Conselhos</h3>

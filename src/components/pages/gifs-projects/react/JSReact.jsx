@@ -14,7 +14,7 @@ function JSReact(){
     }
 
     return(
-        <section className='react-projects flex-column main-card'>
+        <section className='react-projects flex-column main-card main-projects-html-css-js-react-card'>
             <div className="react-project flex-row">
                 <div className="project flex-column">
                     <h3>Quest de React Básico</h3>

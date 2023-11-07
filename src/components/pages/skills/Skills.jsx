@@ -2,7 +2,7 @@ import './skills.css'
 
 function Skills (){
     return(
-        <section className='skills flex-column main-card'>
+        <section className='skills flex-column main-card main-skills-card'>
             <div className='languages-skills flex-row'>
                 <div className="languages flex-column">
                     <h2 className='heading-2'>Linguagens de Programação</h2>
