@@ -39,6 +39,10 @@
         padding: 2rem;
     }
 
+    .heading-2{
+        font-size: 2.8rem;
+    }
+
     .about .about-me .heading-2{
         font-size: 2.8rem;
         margin-bottom: 1rem;
@@ -81,8 +85,11 @@
         width: 100%;
     }
 
-    .skills .languages-skills .heading-2{
+    .heading-2{
         font-size: 2.8rem;
+    }
+
+    .skills .languages-skills .heading-2{
         margin-bottom: 1rem;
     }
 
@@ -235,6 +242,7 @@
 
     .about{
         gap: 8rem;
+        padding-top: 6rem;
     }
 
     .about .about-me{
@@ -248,9 +256,8 @@
         padding: 0;
     }
 
-    .about .about-me .heading-2{
+    .heading-2{
         font-size: 2.4rem;
-        margin-bottom: 1rem;
     }
     
     .about .about-me h3, .about .about-me p{
@@ -262,7 +269,6 @@
     }
 
     .about .about-text .heading-2{
-        font-size: 2.4rem;
         margin-bottom: 3rem;
     }
     
@@ -284,6 +290,10 @@
 
     .main-studies-card{
         max-height: 86rem;
+    }
+
+    .studies{
+        padding: 4rem 0 0 0;
     }
 
     .studies .academic-studies{
@@ -340,10 +350,7 @@
 
     .html-css-project, .js-project, .react-project{
         height: 80rem;
-        padding: 16rem 0 0 0;
-    }
-
-    .html-css-project, .js-project, .react-project{
+        padding: 18rem 0 0 0;
         gap: 12rem;
     }
 
@@ -352,7 +359,7 @@
     }
 
     .background-form{
-        padding: 13rem 1rem 1rem 1rem;
+        padding: 15rem 1rem 1rem 1rem;
     }
 
     .contacts .form-contact{
@@ -374,16 +381,12 @@
     }
 
     .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
-        width: 100%;
-        padding-left: 9rem;
+        width: 80%;
+        padding: 0;
     }
 
     .html-css-project, .js-project, .react-project{
         padding: 15rem 0 0 0;
-    }
-
-    .background-form{
-        padding: 15rem 1rem 1rem 1rem;
     }
 }
 
@@ -398,13 +401,15 @@
     }
 }
 
+@media(max-width: 371px){
+    .background-form{
+        padding: 17rem 1rem 1rem 1rem;
+    }
+}
+
 @media(max-width: 367px){
     .skills .languages-skills .languages .heading-2, .skills .soft-skills .heading-2{
         font-size: 2.6rem;
-    }
-
-    .html-css-project, .js-project, .react-project{
-        padding: 14rem 0 0 0;
     }
 }
 
@@ -423,11 +428,6 @@
         font-size: 1.8rem;
     }
 
-    .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
-        width: 100%;
-        padding-left: 8rem;
-    }
-
     .projects .heading-2{
         font-size: 3.2rem;
     }
@@ -438,8 +438,8 @@
 }
 
 @media(max-width: 350px){
-    .about .about-me .heading-2{
-        font-size: 2rem;
+    .about{
+        padding-top: 4rem;
     }
 
     .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
@@ -447,8 +447,16 @@
         padding-left: 3rem;
     }
 
-    .studies .academic-studies .college .text h2, .studies .academic-studies .course .text h2{
-        font-size: 2.2rem;
+    .heading-2, .studies .academic-studies .college .text .heading-2, .studies .academic-studies .course .text .heading-2{
+        font-size: 2rem;
+    }
+
+    .studies{
+        padding: 0;
+    }
+
+    .studies .academic-studies{
+        margin-top: -2rem;
     }
 
     .studies .academic-studies .college .text li, .studies .academic-studies .course .text li{
@@ -486,6 +494,14 @@
     .background-form{
         padding: 17rem 1rem 1rem 1rem;
     }
+
+    .btn{
+        font-size: 2.2rem;
+    }
+
+    .contacts .contact p, .contacts .contact p span{
+        font-size: 1.97rem;
+    }
 }
 
 @media(max-width: 329px){
@@ -500,11 +516,15 @@
     .html-css-project, .js-project, .react-project{
         padding: 15rem 0 0 0;
     }
+
+    .contacts .contact p, .contacts .contact p span{
+        font-size: 1.94rem;
+    }
 }
 
 @media(max-width: 326px){
-    .btn{
-        font-size: 2.2rem;
+    .contacts .contact p, .contacts .contact p span{
+        font-size: 1.91rem;
     }
 }
 
@@ -512,11 +532,19 @@
     .btn{
         font-size: 2rem;
     }
+
+    .contacts .contact p, .contacts .contact p span{
+        font-size: 1.89rem;
+    }
 }
 
 @media(max-width: 301px){
-    .about .about-me .heading-2{
+    .heading-2{
         font-size: 1.99rem;
+    }
+
+    .studies .academic-studies{
+        margin-top: -3rem;
     }
 
     .html-css-project, .js-project, .react-project{
@@ -529,5 +557,9 @@
 
     .background-form .title-form h3{
         font-size: 2.4rem;
+    }
+
+    .contacts .contact p, .contacts .contact p span{
+        font-size: 1.75rem;
     }
 }

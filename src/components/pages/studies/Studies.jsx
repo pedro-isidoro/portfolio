@@ -10,7 +10,7 @@ function Studies(){
                     <div className="college flex-row">
                         <img src={collegeImage} alt="Imagem da Faculdade" />
                         <div className="text">
-                            <h2>Universidade Anhembi Morumbi</h2>
+                            <h2 className='heading-2'>Universidade Anhembi Morumbi</h2>
                             <ul>
                                 <li>Bacharelado em Ciências da Computação</li>
                                 <li>Início: 2022</li>
@@ -21,7 +21,7 @@ function Studies(){
                     <div className="course flex-row">
                         <img src={courseImage} alt="Imagem do Curso DevQuest" />
                         <div className="text">
-                            <h2>DevQuest - Dev em Dobro</h2>
+                            <h2 className='heading-2'>DevQuest - Dev em Dobro</h2>
                             <ul>
                                 <li>Treinamento em desenvolvimento web com mentoria e suporte.</li>
                                 <li>Início: Dezembro 2022</li>
