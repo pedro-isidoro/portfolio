@@ -15,7 +15,7 @@ function Contacts(){
                     </ul>
                 </div>
                 <div className='contact'>
-                    <p>E-mail: <span>contato.pedro@gmail.com</span></p>
+                    <p>E-mail: <span>pedrol.isidoro@yaho.com</span></p>
                     <p>Tel: <span>(11) 97060-1261</span></p>
                 </div>
             </div>

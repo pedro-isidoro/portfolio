@@ -429,6 +429,10 @@
     .skills .languages-skills .languages .heading-2, .skills .soft-skills .heading-2{
         font-size: 2.6rem;
     }
+
+    .contacts .contact p, .contacts .contact p span{
+        font-size: 1.9rem;
+    }
 }
 
 @media(max-width: 362px){
@@ -504,10 +508,6 @@
     .btn{
         font-size: 2.2rem;
     }
-
-    .contacts .contact p, .contacts .contact p span{
-        font-size: 1.97rem;
-    }
 }
 
 @media(max-width: 329px){
@@ -517,10 +517,6 @@
 
     .about .about-text p, .about .about-text p span{
         font-size: 1.7rem;
-    }
-
-    .contacts .contact p, .contacts .contact p span{
-        font-size: 1.9rem;
     }
 }
 
