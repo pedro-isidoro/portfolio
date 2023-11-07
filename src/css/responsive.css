@@ -125,6 +125,14 @@
     .btn{
         font-size: 2.6rem;
     }
+
+    .main-projects-contacts-card{
+        gap: 4rem;
+    }
+
+    .background-form{
+        padding: 1rem 2.5rem;
+    }
 }
 
 @media (max-width: 801px){
@@ -338,6 +346,22 @@
     .html-css-project, .js-project, .react-project{
         gap: 12rem;
     }
+
+    .main-projects-contacts-card{
+        max-height: 80rem;
+    }
+
+    .background-form{
+        padding: 13rem 1rem 1rem 1rem;
+    }
+
+    .contacts .form-contact{
+        width: 90%;
+    }
+
+    .contacts .nets-contacts{
+        width: 100%;
+    }
 }
 
 @media(max-width: 392px){
@@ -356,6 +380,10 @@
 
     .html-css-project, .js-project, .react-project{
         padding: 15rem 0 0 0;
+    }
+
+    .background-form{
+        padding: 15rem 1rem 1rem 1rem;
     }
 }
 
@@ -434,6 +462,14 @@
     .project .github-links{
         gap: 0.4rem;
     }
+
+    .background-form .title-form h3{
+        font-size: 2.6rem;
+    }
+
+    .background-form .title-form p{
+        font-size: 1.8rem;
+    }
 }
 
 @media(max-width: 345px){
@@ -445,6 +481,10 @@
 @media(max-width: 332px){
     .project .github-links a{
         font-size: 1.7rem;
+    }
+
+    .background-form{
+        padding: 17rem 1rem 1rem 1rem;
     }
 }
 
@@ -481,5 +521,13 @@
 
     .html-css-project, .js-project, .react-project{
         padding: 16rem 0 0 0;
+    }
+
+    .background-form{
+        padding: 18rem 1rem 1rem 1rem;
+    }
+
+    .background-form .title-form h3{
+        font-size: 2.4rem;
     }
 }
