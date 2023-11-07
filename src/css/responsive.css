@@ -520,13 +520,7 @@
     }
 
     .contacts .contact p, .contacts .contact p span{
-        font-size: 1.94rem;
-    }
-}
-
-@media(max-width: 326px){
-    .contacts .contact p, .contacts .contact p span{
-        font-size: 1.91rem;
+        font-size: 1.9rem;
     }
 }
 

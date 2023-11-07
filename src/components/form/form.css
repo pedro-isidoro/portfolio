@@ -62,6 +62,7 @@
     padding: 0.4rem;
     font-size: 1.8rem;
     border-radius: 0.6rem;
+    border: none;
 }
 
 .formulary .item-formulary:nth-child(n+1):nth-child(-n+4){
@@ -75,6 +76,7 @@
     font-size: 1.8rem;
     border-radius: 0.6rem;
     resize: none;
+    border: none;
 }
 
 .register{
@@ -89,10 +91,12 @@
     border-radius: 1rem;
     background-color: var(--body-color);
     color: var(--color-default);
+    border: none;
 }
 
 .register button:hover{
     cursor: pointer;
+    transform: scale(1.06);
 }
 
 /*? Aviso */
