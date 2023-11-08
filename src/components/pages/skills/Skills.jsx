@@ -7,17 +7,17 @@ function Skills (){
                 <div className="languages flex-column">
                     <h2 className='heading-2'>Linguagens de Programação</h2>
                     <ul>
-                        <li className="html">HTML5</li>
-                        <li className="css">CSS3</li>
-                        <li className="js">JavaScript (Intemediário)</li>
+                        <li className="html"><a href="https://www.w3schools.com/html/" target='_blank'>HTML5</a></li>
+                        <li className="css"><a href="https://www.w3schools.com/css/" target="_blank">CSS3</a></li>
+                        <li className="js"><a href="https://www.w3schools.com/js/" target="_blank">JavaScript (Intemediário)</a></li>
                     </ul>
                 </div>
                 <div className="library flex-column">
                     <h2 className='heading-2'>Bibliotecas</h2>
                     <ul>
-                        <li className="react">React (Intermediário)</li>
-                        <li className="react-hook-form">React Hook Form (Básico)</li>
-                        <li className="react-rounter">React Router (Básico)</li>
+                        <li className="react"><a href="https://react.dev/" target='_blank'>React (Intermediário)</a></li>
+                        <li className="react-hook-form"><a href="https://react-hook-form.com/" target='_blank'>React Hook Form (Básico)</a></li>
+                        <li className="react-rounter"><a href="https://reactrouter.com/en/main" target='_blank'>React Router (Básico)</a></li>
                     </ul>
                 </div>
             </div>

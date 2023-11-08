@@ -24,7 +24,7 @@ function JSReact(){
                     </a>
                     <div className="github-links flex-row">
                         <a href="https://github.com/pedro-isidoro/quest-basic-react" target="_blank">GitHub Repository</a>
-                        <a href="https://quest-basic-react-ch24tkbah-pedro-isidoros-projects.vercel.app/" target="_blank">GitHub Pages</a>
+                        <a href="https://quest-basic-react-ch24tkbah-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
                     </div>
                 </div>
                 <div className="project flex-column">
@@ -34,7 +34,7 @@ function JSReact(){
                     </a>
                     <div className="github-links  flex-row">
                         <a href="https://github.com/pedro-isidoro/portfolio" target="_blank">GitHub Repository</a>
-                        <a href="https://my-portfolio-h6lawv6v9-pedro-isidoros-projects.vercel.app/" target="_blank">GitHub Pages</a>
+                        <a href="https://my-portfolio-h6lawv6v9-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
                     </div>
                 </div>
                 {/*

@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.skills .languages-skills li{
+.skills .languages-skills li, .skills .languages-skills li a{
     font-size: 2rem;
     color: var(--span-color-default);
 }
@@ -24,24 +24,28 @@
     list-style: circle;
 }
 
-.skills .languages-skills .languages p:nth-child(n+1):nth-child(-n+2){
-    margin-bottom: 1rem;
-}
-
-.skills .languages-skills .library p:first-child{
-    margin-bottom: 1rem;
-}
-
-.skills .languages-skills .languages .html{
+.skills .languages-skills .languages .html, .skills .languages-skills .languages .html a{
     color: var(--html-color);
 }
 
-.skills .languages-skills .languages .css{
+.skills .languages-skills .languages .css, .skills .languages-skills .languages .css a{
     color: var(--css-color);
 }
 
-.skills .languages-skills .languages .js{
+.skills .languages-skills .languages .js,
+.skills .languages-skills .languages .js a, 
+.skills .languages-skills .library ul li:hover, 
+.skills .languages-skills .library ul li a:hover{
     color: var(--js-color);
+}
+
+.skills .languages-skills .languages .html:hover,
+.skills .languages-skills .languages .html a:hover,
+.skills .languages-skills .languages .css:hover,
+.skills .languages-skills .languages .css a:hover,
+.skills .languages-skills .languages .js:hover,
+.skills .languages-skills .languages .js a:hover{
+    color: var(--whatsapp-color);
 }
 
 /*? Soft Skills  */

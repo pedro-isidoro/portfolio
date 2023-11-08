@@ -1,5 +1,5 @@
-import './about.css'
 import image from '/src/images/Foto-minha.jpg'
+import './about.css'
 
 function About (){
     return(
@@ -13,9 +13,11 @@ function About (){
             <div className='about-text flex-column'>
                 <h2 className='heading-2'>Sobre</h2>
                 <p>
-                    Moro na Zona Leste de São Paulo.<br />
-                    Atualmente estou estudando <span>HTML, CSS e JavaScript</span>. Meus principais hobbies estão entre ir para a academia e ver filmes e séries. <br />
-                    Pratiquei por 3 anos e meio Jiu-Jitsu com esse tempo no esporte, aprendi a ter <span>disciplina, rotina, dedicação</span>, além de <span>paciência e respeito </span> pelos mais experientes. E espero crescer ainda mais nesses quesitos, de <span>conhecimento, experiência, cultura e maturidade</span> no meu futuro estágio.
+                    Moro na Zona Leste de São Paulo.<br/>
+                    Atualmente estou cursando meu 4° semestre de Ciência da Computação, e paralelamente estou estudando no curso DevQuest <span>HTML, CSS, JavaScript e React</span>. <br/><br/>
+                    Meus principais hobbies estão entre me exercitar na academia, ler livros e assistir filmes e séries. <br/>
+                    Pratiquei Jiu-Jitsu por um tempo, e com ele consegui aprender a ter, <span>disciplina, rotina e dedicação</span>, além de <span>paciência e respeito </span> pelos mais experientes. <br/><br/>
+                    Hoje estou á procura de uma oportunidade de adentrar no mercado de trabalho, e espero crescer ainda mais nesses quesitos de <span>conhecimento, experiência, cultura e maturidade</span> no meu futuro estágio.
                 </p>
             </div>
         </section>

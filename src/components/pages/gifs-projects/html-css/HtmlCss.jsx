@@ -21,7 +21,7 @@ function HtmlCss(){
         <section className='html-css-projects flex-column main-card main-projects-html-css-card'>
                 <div className="html-css-project flex-row">
                     <div className="project flex-column">
-                        <h3>"Biblioteca" de séries</h3>
+                        <h3>"Estante" de séries</h3>
                         <a href="https://pedro-isidoro.github.io/projeto-pessoal/" target="_blank" className="image-link">
                             <img src={MoviesLibraryGif} alt="Gif do projeto" />
                         </a>
