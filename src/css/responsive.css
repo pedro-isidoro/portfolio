@@ -112,10 +112,10 @@
 
     .html-css-project, .js-project{
         flex-direction: column;
-        gap: 20rem;
         height: 80rem;
         width: 80%;
-        padding: 29rem 1rem 0 0;
+        padding: 80rem 1rem 1rem 0;
+        gap: 40rem;
         overflow-y: auto;
     }
 
@@ -216,7 +216,8 @@
 
     .html-css-project, .js-project{
         width: 100%;
-        padding: 26rem 0 0 0;
+        padding: 72rem 0 0 0;
+        gap: 36rem;
     }
 
     .react-project{
@@ -363,8 +364,8 @@
     }
 
     .html-css-project, .js-project{
-        padding: 18rem 0 0 0;
-        gap: 12rem;
+        gap: 24rem;
+        padding: 50rem 0 0 0;
     }
 
     .react-project{
@@ -409,7 +410,7 @@
     }
 
     .html-css-project, .js-project{
-        padding: 17rem 0 0 0;
+        padding: 50rem 0 0 0;
     }
     
     #div-form-send h3{

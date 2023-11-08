@@ -47,7 +47,7 @@ function Formulary(){
     // console.log(errors);
 
     return(
-            <div className="background-form flex-column formSend" id="background-form">
+            <div className="background-form flex-column" id="background-form">
                 <div className="title-form flex-column">
                     <h3>Quer me mandar uma solicitação?</h3>
                     <p>Preencha esse formulário, que receberei por email</p>

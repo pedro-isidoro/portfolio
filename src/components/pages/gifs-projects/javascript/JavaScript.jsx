@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import AdviceGenerator from '/src/images/gifs/html-css-javascript/gerador-de-conselhos.gif'
 import ValidationForm from '/src/images/gifs/html-css-javascript/quest-js-intermediaria.gif'
 import PedroFlix from '/src/images/gifs/html-css-javascript/pedroflix.gif'
+import PokemonGif from '/src/images/gifs/html-css-javascript/carrossel-de-imagens-pokemon.gif'
 
 import './javascript.css'
 
@@ -39,13 +40,23 @@ function JavaScript(){
                     </div>
                 </div>
                 <div className="project flex-column">
-                    <h3>Pessoal</h3>
+                    <h3>Pedroflix</h3>
                     <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank" className="image-link">
                         <img src={PedroFlix} alt="Gif do projeto" />
                     </a>
                     <div className="github-links flex-row">
                         <a href="https://github.com/pedro-isidoro/pedroflix-movie-slider" target="_blank">GitHub Repository</a>
                         <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank">GitHub Pages</a>
+                    </div>
+                </div>
+                <div className="project flex-column">
+                    <h3>Carrossel de Cards Pokémon</h3>
+                    <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank" className="image-link">
+                        <img src={PokemonGif} alt="Gif do projeto" />
+                    </a>
+                    <div className="github-links flex-row">
+                        <a href="https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon" target="_blank">GitHub Repository</a>
+                        <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank">GitHub Pages</a>
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import MoviesLibraryGif from '/src/images/gifs/html-css/biblioteca-pessoal.gif'
 import LibraryGif from '/src/images/gifs/html-css/bliblioteca-de-livros-pessoal.gif'
 import AnniversaryGif from '/src/images/gifs/html-css/anniversary-project.gif'
+import LandingPageGif from '/src/images/gifs/html-css/landing-page.gif'
 
 import './html-css.css'
 
@@ -47,6 +48,16 @@ function HtmlCss(){
                         <div className="github-links flex-row">
                             <a href="https://github.com/pedro-isidoro/anniversary-project" target="_blank">GitHub Repository</a>
                             <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank">GitHub Pages</a>
+                        </div>
+                    </div>
+                    <div className="project flex-column">
+                        <h3>Landing Page</h3>
+                        <a href="https://pedro-isidoro.github.io/landing-page/" target="_blank" className="image-link">
+                            <img src={LandingPageGif} alt="Gif do projeto" />
+                        </a>
+                        <div className="github-links flex-row">
+                            <a href="https://github.com/pedro-isidoro/landing-page" target="_blank">GitHub Repository</a>
+                            <a href="https://pedro-isidoro.github.io/landing-page/" target="_blank">GitHub Pages</a>
                         </div>
                     </div>
                 </div>

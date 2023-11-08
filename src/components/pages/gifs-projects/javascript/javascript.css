@@ -6,7 +6,7 @@
     min-height: 40rem;
     max-width: 100rem;
     gap: 1rem;
-    padding: 0 2rem 0 50rem;
+    padding: 0 2rem 0 auto;
     border-radius: 1rem;
     overflow-x: auto;
 }
