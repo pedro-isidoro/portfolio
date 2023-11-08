@@ -392,7 +392,13 @@
         font-size: 2.8rem;
     }
 }
-/* Deve ser meu cell */
+/* Deve ser meu cell: entre 417px - 393px */
+@media(max-width: 417px){
+    #div-form-send h3{
+        font-size: 2.4rem;
+    }
+}
+
 @media(max-width: 392px){
     .skills .languages-skills .languages .heading-2{
         font-size: 2.8rem;
@@ -409,10 +415,6 @@
 
     .html-css-project, .js-project{
         padding: 17rem 0 0 0;
-    }
-
-    #div-form-send h3{
-        font-size: 2.4rem;
     }
 }
 
