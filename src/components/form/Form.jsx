@@ -56,12 +56,12 @@ function Formulary(){
                     <div className="formulary">
                         <div className="item-formulary flex-column" id='userName'>
                             <label htmlFor="name">Nome <span>*</span></label>
-                            <input type="text" name="nome" id="name" placeholder="Digite o seu nome" autoComplete="on" 
+                            <input type="text" name="nome" id="name" placeholder="Digite o nome" autoComplete="on" 
                             {...register("name",
                                 // Para o Regex e definição de mensagem de erro 
                                 {required: 'Este campo é Obrigatório*',
                                 pattern: {
-                                    value: /^[A-Za-z]+$/, 
+                                    value: /^[A-Za-z\s]+$/, 
                                     message: 'Apenas Letras são válidas!'} 
                                 })
                             }/>
@@ -71,7 +71,7 @@ function Formulary(){
 
                         <div className="item-formulary flex-column" id='userEmail'>
                             <label htmlFor="email">Email<span>*</span></label>
-                            <input type="email" name="e-mail" id="email" placeholder="Digite o seu email. Ex: contato@gmail.com" autoComplete="on" 
+                            <input type="email" name="e-mail" id="email" placeholder="Ex: contato@gmail.com" autoComplete="on" 
                             {...register("email", 
                                 {required: 'Este campo é Obrigatório*',
                                 pattern: {
@@ -84,7 +84,7 @@ function Formulary(){
 
                         <div className="item-formulary flex-column" id='userTelephone'>
                             <label htmlFor="telephone">Telefone<span>*</span></label>
-                            <input type="tel" name="telephone-number" id="telephone" placeholder="Digite o seu número. Ex: +55-9xxxx-xxxx" autoComplete="on" 
+                            <input type="tel" name="telephone-number" id="telephone" placeholder="Ex: +55-9xxxx-xxxx" autoComplete="on" 
                             {...register("telephone", 
                                 {required: 'Este campo é Obrigatório*',
                                 pattern: {
@@ -97,12 +97,12 @@ function Formulary(){
 
                         <div className="item-formulary flex-column" id='userInstagram'>
                             <label htmlFor="instagram">Instagram</label>
-                            <input type="text" name="instagram-name" id="instagram" placeholder="Digite o seu instagram" autoComplete="off" {...register("instagram")}/>
+                            <input type="text" name="instagram-name" id="instagram" placeholder="Digite o instagram" autoComplete="off" {...register("instagram")}/>
                         </div>
 
                         <div className="item-formulary flex-column" id='userOpnion'>
-                            <label htmlFor="opnion">Qual assunto que falar comigo sobre?<span>*</span></label>
-                            <textarea name="opnion" id="opnion" placeholder="Nos fale sobre você" autoComplete="on" {...register("opnion", {required: 'Este campo é Obrigatório*'})}/>
+                            <label htmlFor="opnion">Qual o motivo do contato?<span>*</span></label>
+                            <textarea name="opnion" id="opnion" placeholder="Me fale sobre" autoComplete="on" {...register("opnion", {required: 'Este campo é Obrigatório*'})}/>
                             <p className='aviso'>{errors.opnion?.message}</p>
                         </div>
                     </div>
