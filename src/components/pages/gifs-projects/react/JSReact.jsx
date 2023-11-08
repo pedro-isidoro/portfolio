@@ -28,7 +28,7 @@ function JSReact(){
                     </div>
                 </div>
                 <div className="project flex-column">
-                    <h3>Em andamento</h3>
+                    <h3>Portfólio</h3>
                     <a href="" target="_blank" className="image-link">
                         <img src={portfolio} alt="Gif do projeto" />
                     </a>
