@@ -111,7 +111,7 @@ function Formulary(){
                     </div>
                 </form>
                 <div className="flex-column" id="div-form-send">
-                    <h3>Formulário Enviado ✅</h3>
+                    <h3>Formulário Enviado</h3>
                     <p>Assim que possível, entrarei em contato!!</p>
                 </div>
             </div>
