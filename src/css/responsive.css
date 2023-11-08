@@ -415,6 +415,12 @@
         font-size: 2.5rem;
     }
 }
+/* Deve ser meu cell */
+@media(max-width: 385px){
+    #div-form-send h3{
+        font-size: 2.4rem;
+    }
+}
 
 @media(max-width: 376px){
     .about .about-me, .about .about-text{
@@ -424,10 +430,6 @@
     .about .about-me .heading-2{
         font-size: 2.2rem;
         margin-bottom: 1rem;
-    }
-
-    #div-form-send h3{
-        font-size: 2.4rem;
     }
 }
 
