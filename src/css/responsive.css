@@ -520,7 +520,7 @@
         padding-left: 3rem;
     }
 
-    .heading-2, .studies .academic-studies .college .text .heading-2, .studies .academic-studies .course .text .heading-2{
+    .heading-2, .studies .academic-studies .college .text .heading-2 a, .studies .academic-studies .course .text .heading-2 a{
         font-size: 2rem;
     }
 

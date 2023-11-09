@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import App from './components/app/App.jsx'
 import About from './components/pages/about/About.jsx'
 import Skills from './components/pages/skills/Skills.jsx'
 import ErrorPage from './ErrorPage.jsx'
 import Studies from './components/pages/studies/Studies.jsx'
 import Projects from './components/pages/projects/Projects.jsx'
-import JavaScript from './components/pages/gifs-projects/javascript/JavaScript.jsx'
 import HtmlCss from './components/pages/gifs-projects/html-css/HtmlCss.jsx'
+import JavaScript from './components/pages/gifs-projects/javascript/JavaScript.jsx'
 import JSReact from './components/pages/gifs-projects/react/JSReact.jsx'
 import Contacts from './components/pages/contacts/Contacts.jsx'
 

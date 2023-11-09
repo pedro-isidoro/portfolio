@@ -17,9 +17,14 @@
     width: 30rem;
 }
 
-.studies .academic-studies .college .text h2, .studies .academic-studies .course .text h2{
+.studies .academic-studies .college .text h2 a, .studies .academic-studies .course .text h2 a{
     font-size: 2.4rem;
     margin-bottom: 1.2rem;
+}
+
+.studies .academic-studies .college .text h2 a:hover, .studies .academic-studies .course .text h2 a:hover{
+    cursor: pointer;
+    color: var(--span-color-default);
 }
 
 .studies .academic-studies .college .text li,
