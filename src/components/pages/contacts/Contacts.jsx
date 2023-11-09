@@ -1,5 +1,6 @@
 import Formulary from '/src/components/form/Form.jsx'
 import './contacts.css'
+const   CVToDownload = '/src/cv/curriculo-pedro.pdf'
 
 function Contacts(){
     return(
@@ -18,6 +19,9 @@ function Contacts(){
                     <p>E-mail: <span>pedrol.isidoro@yaho.com</span></p>
                     <p>Tel: <span>(11) 97060-1261</span></p>
                 </div>
+                {/* Para baixar meu CV */}
+                <button className='btn-cv'><a href={CVToDownload} target='_blank' download="curriculo-pedro.pdf" type='	application/pdf'>Baixar CV</a></button>
+                {/* O type peguei daqui: https://www.iana.org/assignments/media-types/media-types.xhtml */}
             </div>
         </section>
     );

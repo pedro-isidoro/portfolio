@@ -4,6 +4,7 @@
 
 .net-contact .nets, .contacts .contact{
     color: var(--color-default);
+    margin-bottom: 3rem;
 }
 
 .contacts .contact p, .contacts .contact p span{
@@ -59,4 +60,23 @@
 
 .contacts .contact p span{
     color: var(--span-color-default);
+}
+
+/* BTN CV */
+.btn-cv{
+    width: 60%;
+    padding: 0.8rem 0;
+    border-radius: 1rem;
+    background-color: var(--body-color);
+    color: var(--color-default);
+    border: none;
+}
+
+.btn-cv a{
+    font-size: 2rem;
+}
+
+.btn-cv:hover{
+    cursor: pointer;
+    transform: scale(1.08);
 }

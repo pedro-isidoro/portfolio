@@ -97,7 +97,7 @@
     margin: 2rem 0;
 }
 
-.register button{
+.register #btn-send{
     font-size: 2rem;
     width: 100%;
     padding: 1.2rem 0;
@@ -107,7 +107,7 @@
     border: none;
 }
 
-.register button:hover{
+.register #btn-send:hover{
     cursor: pointer;
     transform: scale(1.06);
 }
