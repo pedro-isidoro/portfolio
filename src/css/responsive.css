@@ -269,7 +269,7 @@
 
     .about{
         gap: 8rem;
-        padding: 6rem 0 3rem 0;
+        padding: 6rem 0 4rem 0;
     }
 
     .about .about-me{
@@ -412,9 +412,9 @@
     }
 }
 
-@media(max-width: 392px){
+@media(max-width: 393px){
     .about{
-        padding: 9rem 0 5rem 0;
+        padding: 9rem 0 6rem 0;
     }
 
     .skills .languages-skills .languages .heading-2{
@@ -457,6 +457,10 @@
 }
 
 @media(max-width: 367px){
+    .about{
+        padding: 5rem 0 4rem 0;
+    }
+
     .skills .languages-skills .languages .heading-2, .skills .soft-skills .heading-2{
         font-size: 2.6rem;
     }
@@ -557,6 +561,10 @@
 }
 
 @media(max-width: 332px){
+    .about{
+        padding: 4rem 0 4rem 0;
+    }
+
     .project .github-links a{
         font-size: 1.7rem;
     }

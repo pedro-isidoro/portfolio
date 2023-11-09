@@ -44,6 +44,10 @@ footer{
     font-size: 3rem;
 }
 
+span, .blue-color{
+    color: var(--span-color-default);
+}
+
 .main-card{
     height: 56rem;
     width: 110rem;

@@ -13,7 +13,6 @@
 
 .skills .languages-skills li, .skills .languages-skills li a{
     font-size: 2rem;
-    color: var(--span-color-default);
 }
 
 .skills .languages-skills .languages, .skills .languages-skills .library{
@@ -62,7 +61,6 @@
 }
 
 .skills .soft-skills li{
-    color: var(--span-color-default);
     font-size: 2rem;
 }
 

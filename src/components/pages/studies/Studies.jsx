@@ -13,8 +13,8 @@ function Studies(){
                             <h2 className='heading-2'>Universidade Anhembi Morumbi</h2>
                             <ul>
                                 <li>Bacharelado em Ciências da Computação</li>
-                                <li>Início: 2022</li>
-                                <li>Previsão de Término: 2025</li>
+                                <li>Início: <span>2022</span></li>
+                                <li>Previsão de Término: <span>2025</span></li>
                             </ul>
                         </div>
                     </div>
@@ -24,8 +24,8 @@ function Studies(){
                             <h2 className='heading-2'>DevQuest - Dev em Dobro</h2>
                             <ul>
                                 <li>Treinamento em desenvolvimento web com mentoria e suporte.</li>
-                                <li>Início: Dezembro 2022</li>
-                                <li>Término: Em andamento</li>
+                                <li>Início: <span>Dezembro 2022</span></li>
+                                <li>Término: <span>Em andamento</span></li>
                             </ul>
                         </div>
                     </div>

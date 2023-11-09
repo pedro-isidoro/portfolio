@@ -22,7 +22,10 @@
     margin-bottom: 1.2rem;
 }
 
-.studies .academic-studies .college .text li, .studies .academic-studies .course .text li{
+.studies .academic-studies .college .text li,
+.studies .academic-studies .course .text li,
+.studies .academic-studies .college .text li span,
+.studies .academic-studies .course .text li span{
     font-size: 1.8rem;
 }
 
@@ -49,5 +52,4 @@
 
 .studies .language-studies li span{
     font-size: 2rem;
-    color: var(--span-color-default);
 }
