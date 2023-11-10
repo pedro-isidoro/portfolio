@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import BasicReactQuest from '/src/images/gifs/html-css-javascript-react/quest-react-basico.gif'
 import portfolio from '/src/images/gifs/html-css-javascript-react/my-portfolio.gif'
-
 import './js-react.css'
 
 function JSReact(){
@@ -34,7 +33,7 @@ function JSReact(){
                     </a>
                     <div className="github-links  flex-row">
                         <a href="https://github.com/pedro-isidoro/portfolio" target="_blank">GitHub Repository</a>
-                        <a href="https://my-portfolio-h6lawv6v9-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
+                        <a href="https://my-portfolio-pxf0aru9o-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
                     </div>
                 </div>
                 {/*

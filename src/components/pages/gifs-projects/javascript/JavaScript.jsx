@@ -3,7 +3,6 @@ import AdviceGenerator from '/src/images/gifs/html-css-javascript/gerador-de-con
 import ValidationForm from '/src/images/gifs/html-css-javascript/quest-js-intermediaria.gif'
 import PedroFlix from '/src/images/gifs/html-css-javascript/pedroflix.gif'
 import PokemonGif from '/src/images/gifs/html-css-javascript/carrossel-de-imagens-pokemon.gif'
-
 import './javascript.css'
 
 function JavaScript(){

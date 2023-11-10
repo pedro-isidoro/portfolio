@@ -12,7 +12,6 @@ import HtmlCss from './components/pages/gifs-projects/html-css/HtmlCss.jsx'
 import JavaScript from './components/pages/gifs-projects/javascript/JavaScript.jsx'
 import JSReact from './components/pages/gifs-projects/react/JSReact.jsx'
 import Contacts from './components/pages/contacts/Contacts.jsx'
-
 import './css/variables.css'
 import './css/reset.css'
 import './css/index.css'
