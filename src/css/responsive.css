@@ -26,10 +26,6 @@
         width: 110rem;
         padding: 2rem 4rem;
     }
-
-    .background-form{
-        padding: 14rem 2.5rem 0 2.5rem;
-    }
 }
 
 @media(max-width: 1025px){
@@ -61,10 +57,6 @@
         max-width: 90rem;
         gap: 1rem;
         padding: 0 2rem 0 98rem;
-    }
-
-    .background-form{
-        padding: 18rem 2.5rem 0 2.5rem;
     }
 }
 
@@ -122,42 +114,40 @@
 
     .studies .academic-studies, .studies .language-studies{
         width: 100%;
-        height: auto;
+    }
+
+    .studies .language-studies{
+        height: 30%;
+    }
+
+    .studies .academic-studies{
+        height: 70%;
     }
 
     .html-css-projects, .js-project, .react-project{
         gap: 3rem;
     }
 
-    .html-css-project, .js-project{
-        flex-direction: column;
-        height: 80rem;
-        width: 80%;
-        padding: 80rem 1rem 1rem 0;
-        gap: 40rem;
-        overflow-y: auto;
+    .projects-buttons{
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
     }
 
-    .react-project{
-        flex-direction: column;
-        gap: 16rem;
-        height: 80rem;
-        width: 80%;
-        padding: 6rem 1rem 0 0;
-        overflow-y: auto;
+    .html-css-project-list, .js-project-list, .react-project-list{
+        height: 80%;
+        width: 90%;
+    }
+
+    .html-css-project-list .html-css-project, .js-project-list .js-project, .react-project-list .react-project{
+        width: 100%;
     }
 
     .html-css-project::-webkit-scrollbar, .js-project::-webkit-scrollbar, .react-project::-webkit-scrollbar{
         width: 0.8rem;
     }
-    
-    .project{
-        min-height: 33%;
-        min-width: 100%;
-        padding: 0;
-    }
 
-    .btn{
+    .projects-buttons .btn{
         font-size: 2.6rem;
     }
 
@@ -165,8 +155,9 @@
         gap: 4rem;
     }
 
-    .background-form{
-        padding: 1rem 2.5rem;
+    .contacts .formulary-to-send{
+        width: 75%;
+        max-height: 90%;
     }
 }
 
@@ -245,20 +236,30 @@
         width: 90%;
     }
 
-    .html-css-project, .js-project{
-        width: 100%;
-        padding: 72rem 0 0 0;
-        gap: 36rem;
+    .projects-buttons{
+        height: 10%;
+    }
+    
+    .html-css-project-list, .js-project-list, .react-project-list{
+        height: 90%;
     }
 
-    .react-project{
-        height: 74rem;
-        width: 100%;
-        padding: 8rem 0 0 0;
+    .html-css-project-list .html-css-project, .js-project-list .js-project, .react-project-list .react-project{
+        gap: 2rem;
+    }
+
+    .project{
+        width: 40rem;
+        gap: 2rem;
     }
 
     .project .image-link{
         width: 90%;
+    }
+
+    .contacts .formulary-to-send{
+        width: 90%;
+        max-height: 90%;
     }
 }
 
@@ -418,22 +419,17 @@
         max-height: 80rem;
     }
 
-    .html-css-project, .js-project{
-        gap: 24rem;
-        padding: 50rem 0 0 0;
+    .html-css-project-list, .js-project-list, .react-project-list{
+        width: 100%;
     }
 
-    .react-project{
-        padding: 0;
-        gap: 6rem;
+    .project{
+        width: 100%;
     }
 
-    .main-contacts-card{
-        max-height: 80rem;
-    }
-
-    .background-form{
-        padding: 17rem 1rem 1rem 1rem;
+    .contacts .formulary-to-send{
+        width: 100%;
+        max-height: 80%;
     }
 
     .contacts .form-contact{
@@ -478,10 +474,6 @@
         width: 14rem;
     }
 
-    .html-css-project, .js-project{
-        padding: 50rem 0 0 0;
-    }
-    
     #div-form-send h3{
         font-size: 2.4rem;
     }
@@ -498,12 +490,6 @@
     }
 }
 
-@media(max-width: 371px){
-    .background-form{
-        padding: 18rem 1rem 1rem 1rem;
-    }
-}
-
 @media(max-width: 367px){
     .about{
         padding: 5rem 0 4rem 0;
@@ -511,6 +497,10 @@
 
     .skills .languages-skills .heading-2, .skills .soft-skills .heading-2{
         font-size: 2.6rem;
+    }
+
+    .project .github-links a{
+        font-size: 1.7rem;
     }
 
     .contacts .contact p, .contacts .contact p span{
@@ -531,11 +521,7 @@
 }
 
 @media(max-width: 362px){
-    .project .github-links a{
-        font-size: 1.8rem;
-    }
-
-    .btn{
+    .projects-buttons .btn{
         font-size: 2.4rem;
     }
 }
@@ -551,6 +537,10 @@
 
     .projects .links-projects .link-project{
         font-size: 2.4rem;
+    }
+
+    .project .github-links a{
+        font-size: 1.6rem;
     }
 }
 
@@ -631,10 +621,10 @@
     }
 
     .project .github-links a{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
-    .btn{
+    .projects-buttons .btn{
         font-size: 2.2rem;
     }
 }
@@ -643,15 +633,23 @@
     .about .about-me h3{
         font-size: 1.6rem;
     }
+
+    .project h3{
+        font-size: 2.4rem;
+    }
 }
 
 @media(max-width: 321px){
-    .btn{
+    .projects-buttons .btn{
         font-size: 2rem;
     }
 
     .contacts .contact p, .contacts .contact p span{
         font-size: 1.89rem;
+    }
+
+    .project .github-links a{
+        font-size: 1.3rem;
     }
 }
 
@@ -662,10 +660,6 @@
 
     .studies .academic-studies{
         margin-top: -3rem;
-    }
-
-    .background-form{
-        padding: 18rem 1rem 1rem 1rem;
     }
 
     .background-form .title-form h3{
