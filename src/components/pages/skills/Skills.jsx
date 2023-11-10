@@ -23,7 +23,7 @@ function Skills (){
                             <p className='html'>HTML5</p>
                         </div>
                         <div className='back'>
-                            <p>É uma linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
                         </div>
                     </li>
                     <li className="css flex-column">
@@ -32,7 +32,7 @@ function Skills (){
                             <p className='css'>CSS3</p>
                         </div>
                         <div className='back'>
-                            <p>CSS é a linguagem que usamos para estilizar um documento HTML.<br/>CSS descreve como os elementos HTML devem ser exibidos.</p>
+                            <p>Linguagem que usamos para estilizar um documento HTML.</p>
                         </div>
                     </li>
                     <li className="js flex-column">
@@ -41,7 +41,7 @@ function Skills (){
                             <p className='js'>JavaScript <br/> (Intemediário)</p>
                         </div>
                         <div className='back'>
-                            <p>JavaScript é a linguagem de programação mais popular do mundo.<br/>JavaScript é a linguagem de programação da Web.</p>
+                            <p>Linguagem de programação da Web e a linguagem de programação mais popular do mundo.</p>
                         </div>
                     </li>
                     <li className="flex-column react blue-color">
@@ -50,7 +50,7 @@ function Skills (){
                             <p className='blue-color'>React <br/> (Intermediário)</p>
                         </div>
                         <div className='back'>
-                            <p>É a biblioteca para interfaces de usuário web e nativas. <br/>Criando interfaces de usuário a partir de peças individuais chamadas componentes escritos em JavaScript.</p>
+                            <p>É a biblioteca para interfaces de usuário web e nativas.</p>
                         </div>
                     </li>
                     <li className="flex-column react-hook-form blue-color">
@@ -58,7 +58,7 @@ function Skills (){
                             <p className='blue-color'>React Hook Form <br/> (Básico)</p>
                         </div>
                         <div className='back'>
-                            <p>É uma biblioteca para formulários de alto desempenho, flexíveis e extensíveis com validação fácil de usar.</p>
+                            <p>Biblioteca para formulários de alto desempenho, flexíveis e extensíveis com validação.</p>
                         </div>
                     </li>
                     <li className="flex-column react-rounter blue-color">
@@ -66,7 +66,7 @@ function Skills (){
                             <p className='blue-color'>React Router <br/> (Básico)</p>
                         </div>
                         <div className='back'>
-                            <p>React Router permite "roteamento do lado do cliente".<br/>Isso permite experiências de usuário mais rápidas.</p>
+                            <p>Permite "roteamento do lado do cliente", e isso traz experiências de usuário mais rápidas.</p>
                         </div>
                     </li>
                 </ul>
