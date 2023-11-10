@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './projects.css'
+import '../gifs-projects/gifs-projects.css'
 
 function Projects(){
     return(

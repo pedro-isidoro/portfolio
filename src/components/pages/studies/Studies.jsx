@@ -6,6 +6,13 @@ function Studies(){
     return(
         <>
             <section className='studies flex-row main-card main-studies-card'>
+                <div className="language-studies flex-column">
+                    <h2 className='heading-2'>Idiomas</h2>
+                    <ul>
+                        <li>Português <span>Nativo</span></li>
+                        <li>Inglês <span>Básico a Intermediário</span></li>
+                    </ul>
+                </div>
                 <div className="academic-studies">
                     <div className="college flex-row">
                         <img src={collegeImage} alt="Imagem da Faculdade" />
@@ -29,13 +36,6 @@ function Studies(){
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div className="language-studies flex-column">
-                    <h2 className='heading-2'>Idiomas</h2>
-                    <ul>
-                        <li>Português <span>Nativo</span></li>
-                        <li>Inglês <span>Básico a Intermediário</span></li>
-                    </ul>
                 </div>
             </section>
         </>

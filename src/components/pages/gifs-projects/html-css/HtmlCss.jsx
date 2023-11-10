@@ -3,7 +3,6 @@ import MoviesLibraryGif from '/src/images/gifs/html-css/biblioteca-pessoal.gif'
 import LibraryGif from '/src/images/gifs/html-css/bliblioteca-de-livros-pessoal.gif'
 import AnniversaryGif from '/src/images/gifs/html-css/anniversary-project.gif'
 import LandingPageGif from '/src/images/gifs/html-css/landing-page.gif'
-import './html-css.css'
 
 function HtmlCss(){
     // redirect - redirecionamento na lógica
@@ -17,9 +16,14 @@ function HtmlCss(){
     }
 
     return(
-        <section className='html-css-projects flex-column main-card main-projects-html-css-card'>
-                <div className="html-css-project flex-row">
-                    <div className="project flex-column">
+        <section className='html-css-projects flex-row main-card main-projects-html-css-card'>
+            <div className='projects-buttons flex-column'>
+                <button className="btn" onClick={handleJSProjects}>JavaScript</button>
+                <button className="btn" onClick={handleReactProjects}>React</button>
+            </div>
+            <div className="html-css-project-list flex-row">
+                <ul className="html-css-project flex-column">
+                    <li className="project flex-column">
                         <h3>"Estante" de séries</h3>
                         <a href="https://pedro-isidoro.github.io/projeto-pessoal/" target="_blank" className="image-link">
                             <img src={MoviesLibraryGif} alt="Gif do projeto" />
@@ -28,8 +32,8 @@ function HtmlCss(){
                             <a href="https://github.com/pedro-isidoro/Projeto-Pessoal" target="_blank">GitHub Repository</a>
                             <a href="https://pedro-isidoro.github.io/projeto-pessoal/" target="_blank">GitHub Pages</a>
                         </div>
-                    </div>
-                    <div className="project flex-column">
+                    </li>
+                    <li className="project flex-column">
                         <h3>Biblioteca Pessoal</h3>
                         <a href="https://pedro-isidoro.github.io/parchment-of-books/" target="_blank" className="image-link">
                             <img src={LibraryGif} alt="Gif do projeto" />
@@ -38,8 +42,8 @@ function HtmlCss(){
                             <a href="https://github.com/pedro-isidoro/newspaper-style-books.git" target="_blank">GitHub Repository</a>
                             <a href="https://pedro-isidoro.github.io/parchment-of-books/" target="_blank">GitHub Pages</a>
                         </div>
-                    </div>
-                    <div className="project flex-column">
+                    </li>
+                    <li className="project flex-column">
                         <h3>Projeto de Aniversário</h3>
                         <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank" className="image-link">
                             <img src={AnniversaryGif} alt="Gif do projeto" />
@@ -48,8 +52,8 @@ function HtmlCss(){
                             <a href="https://github.com/pedro-isidoro/anniversary-project" target="_blank">GitHub Repository</a>
                             <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank">GitHub Pages</a>
                         </div>
-                    </div>
-                    <div className="project flex-column">
+                    </li>
+                    <li className="project flex-column">
                         <h3>Landing Page</h3>
                         <a href="https://pedro-isidoro.github.io/landing-page/" target="_blank" className="image-link">
                             <img src={LandingPageGif} alt="Gif do projeto" />
@@ -58,13 +62,10 @@ function HtmlCss(){
                             <a href="https://github.com/pedro-isidoro/landing-page" target="_blank">GitHub Repository</a>
                             <a href="https://pedro-isidoro.github.io/landing-page/" target="_blank">GitHub Pages</a>
                         </div>
-                    </div>
-                </div>
-                <div className='flex-row'>
-                    <button className="btn" onClick={handleJSProjects}>JavaScript</button>
-                    <button className="btn" onClick={handleReactProjects}>React</button>
-                </div>
-            </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
     );
 };
 

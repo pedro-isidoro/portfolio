@@ -1,12 +1,11 @@
 .background-form{
-    height: 96%;
+    justify-content: flex-start;
     max-width: 60rem;
-    padding: 12rem 2.5rem 1rem 2.5rem;
+    padding: 1rem 2.5rem;
     border-radius: 1.2rem;
     transition: 0.5s ease-in-out;
-    /* Para sumir com os elementos estourados */
-    overflow: hidden; 
-    overflow-y: auto; /* Para fazer o scroll vertical */
+    /* Para sumir com os elementos estourados e Para fazer o scroll vertical */
+    overflow-y: auto;
     background-color: var(--header-color);
 }
 

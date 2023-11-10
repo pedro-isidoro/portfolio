@@ -26,6 +26,10 @@
         width: 110rem;
         padding: 2rem 4rem;
     }
+
+    .background-form{
+        padding: 14rem 2.5rem 0 2.5rem;
+    }
 }
 
 @media(max-width: 1025px){
@@ -46,6 +50,21 @@
     .about .about-me .heading-2{
         font-size: 2.8rem;
         margin-bottom: 1rem;
+    }
+
+    .about .about-text p, .about .about-text p span{
+        font-size: 1.9rem;
+    }
+
+    .html-css-project{
+        min-height: 40rem;
+        max-width: 90rem;
+        gap: 1rem;
+        padding: 0 2rem 0 98rem;
+    }
+
+    .background-form{
+        padding: 18rem 2.5rem 0 2.5rem;
     }
 }
 
@@ -73,6 +92,10 @@
         width: 80%;
         height: 60%;
         padding: 1rem 2rem;
+    }
+
+    .about .about-text p, .about .about-text p span{
+        font-size: 2.1rem;
     }
 
     .skills .languages-skills{
@@ -138,7 +161,7 @@
         font-size: 2.6rem;
     }
 
-    .main-projects-contacts-card{
+    .main-contacts-card{
         gap: 4rem;
     }
 
@@ -257,6 +280,7 @@
         width: 100%;
         border-end-start-radius: 0rem;
         border-end-end-radius: 0rem;
+        box-shadow: rgba(136, 165, 191, 0.48) 0px 2px 16px 0px, var(--color-default) 0px -2px 16px 0px;
     }
 
     .main-about-card{
@@ -318,11 +342,15 @@
     .skills .languages-skills .languages li{
         height: 18rem;
         width: 16rem;
+        padding: 0 1rem;
     }
 
     .skills .languages-skills .languages li i{
-        padding-bottom: 1rem;
-        font-size: 8rem;
+        font-size: 6rem;
+    }
+
+    .front p{
+        font-size: 1.8rem;
     }
 
     .back p{
@@ -400,7 +428,7 @@
         gap: 6rem;
     }
 
-    .main-projects-contacts-card{
+    .main-contacts-card{
         max-height: 80rem;
     }
 
@@ -543,6 +571,18 @@
     .skills .languages-skills .languages li{
         height: 20rem;
         width: 20rem;
+    }
+
+    .skills .languages-skills .languages li i{
+        font-size: 8rem;
+    }
+
+    .front p{
+        font-size: 1.9rem;
+    }
+
+    .back p{
+        font-size: 1.7rem;
     }
 
     .heading-2, .studies .academic-studies .college .text .heading-2 a, .studies .academic-studies .course .text .heading-2 a{

@@ -3,7 +3,6 @@ import AdviceGenerator from '/src/images/gifs/html-css-javascript/gerador-de-con
 import ValidationForm from '/src/images/gifs/html-css-javascript/quest-js-intermediaria.gif'
 import PedroFlix from '/src/images/gifs/html-css-javascript/pedroflix.gif'
 import PokemonGif from '/src/images/gifs/html-css-javascript/carrossel-de-imagens-pokemon.gif'
-import './javascript.css'
 
 function JavaScript(){
     const navigate = useNavigate();
@@ -16,52 +15,54 @@ function JavaScript(){
     }
 
     return(
-        <section className='js-projects flex-column main-card main-projects-html-css-js-card'>
-            <div className="js-project flex-row">
-                <div className="project flex-column">
-                    <h3>Gerador de Conselhos</h3>
-                    <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank" className="image-link">
-                        <img src={AdviceGenerator} alt="Gif do projeto" />
-                    </a>
-                    <div className="github-links flex-row">
-                        <a href="https://github.com/pedro-isidoro/meu-gerador-de-conselho" target="_blank">GitHub Repository</a>
-                        <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank">GitHub Pages</a>
-                    </div>
-                </div>
-                <div className="project flex-column">
-                    <h3>Quest JS Avançado</h3>
-                    <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank" className="image-link">
-                        <img src={ValidationForm} alt="Gif do projeto" />
-                    </a>
-                    <div className="github-links  flex-row">
-                        <a href="https://github.com/pedro-isidoro/quest-intermediaria-form-com-validacao" target="_blank">GitHub Repository</a>
-                        <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank">GitHub Pages</a>
-                    </div>
-                </div>
-                <div className="project flex-column">
-                    <h3>Pedroflix</h3>
-                    <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank" className="image-link">
-                        <img src={PedroFlix} alt="Gif do projeto" />
-                    </a>
-                    <div className="github-links flex-row">
-                        <a href="https://github.com/pedro-isidoro/pedroflix-movie-slider" target="_blank">GitHub Repository</a>
-                        <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank">GitHub Pages</a>
-                    </div>
-                </div>
-                <div className="project flex-column">
-                    <h3>Carrossel de Cards Pokémon</h3>
-                    <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank" className="image-link">
-                        <img src={PokemonGif} alt="Gif do projeto" />
-                    </a>
-                    <div className="github-links flex-row">
-                        <a href="https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon" target="_blank">GitHub Repository</a>
-                        <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank">GitHub Pages</a>
-                    </div>
-                </div>
-            </div>
-            <div className='flex-row'>
+        <section className='js-projects flex-row main-card main-projects-html-css-js-card'>
+            <div className='projects-buttons flex-column'>
                 <button className="btn" onClick={handleHtmlCssProjects}>HTML/CSS</button>
                 <button className="btn" onClick={handleReactProjects}>React</button>
+            </div>
+            <div className="js-project-list flex-row">
+                <ul className="js-project flex-column">
+                    <li className="project flex-column">
+                        <h3>Gerador de Conselhos</h3>
+                        <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank" className="image-link">
+                            <img src={AdviceGenerator} alt="Gif do projeto" />
+                        </a>
+                        <div className="github-links flex-row">
+                            <a href="https://github.com/pedro-isidoro/meu-gerador-de-conselho" target="_blank">GitHub Repository</a>
+                            <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank">GitHub Pages</a>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <h3>Quest JS Avançado</h3>
+                        <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank" className="image-link">
+                            <img src={ValidationForm} alt="Gif do projeto" />
+                        </a>
+                        <div className="github-links  flex-row">
+                            <a href="https://github.com/pedro-isidoro/quest-intermediaria-form-com-validacao" target="_blank">GitHub Repository</a>
+                            <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank">GitHub Pages</a>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <h3>Pedroflix</h3>
+                        <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank" className="image-link">
+                            <img src={PedroFlix} alt="Gif do projeto" />
+                        </a>
+                        <div className="github-links flex-row">
+                            <a href="https://github.com/pedro-isidoro/pedroflix-movie-slider" target="_blank">GitHub Repository</a>
+                            <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank">GitHub Pages</a>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <h3>Carrossel de Cards Pokémon</h3>
+                        <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank" className="image-link">
+                            <img src={PokemonGif} alt="Gif do projeto" />
+                        </a>
+                        <div className="github-links flex-row">
+                            <a href="https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon" target="_blank">GitHub Repository</a>
+                            <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank">GitHub Pages</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
     );

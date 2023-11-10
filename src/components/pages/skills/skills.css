@@ -59,7 +59,7 @@
     position: relative;
     height: 20rem;
     width: 20rem;
-    background-color: var(--languagens-card-color);
+    background-color: var(--card-color);
     border-radius: 4rem;
     perspective: 1000px; 
     /* Isso dá a profundidade ao nosso item */

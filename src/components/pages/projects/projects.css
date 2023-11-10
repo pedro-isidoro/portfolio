@@ -8,14 +8,14 @@
     border-radius: 1.4rem;
 }
 
-.projects .links-projects .link-project:hover, .btn:hover{
+.projects .links-projects .link-project:hover, .projects-buttons .btn:hover{
     cursor: pointer;
     color: var(--color-default);
     background-color: var(--header-color);
 }
 
-.btn{
-    font-size: 2rem;
+.projects-buttons .btn{
+    font-size: 2.4rem;
     padding: 1rem 2rem;
     border-radius: 1.4rem;
     background: none;
@@ -24,10 +24,11 @@
 
 /* Para os Projetos e suas linguagens */
 .project{
-    max-height: 40rem;
-    min-width: 48rem;
+    width: 55rem;
     padding: 1rem;
     gap: 2rem;
+    border-radius: 4rem;
+    background-color: var(--card-color);
 }
 
 .project h3{

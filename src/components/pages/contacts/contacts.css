@@ -1,5 +1,6 @@
-.contacts .form-contact{
+.contacts .formulary-to-send{
     width: 55%;
+    max-height: 90%;
 }
 
 .net-contact .nets, .contacts .contact{

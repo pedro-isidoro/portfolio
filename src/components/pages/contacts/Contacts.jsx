@@ -4,8 +4,10 @@ import './contacts.css'
 
 function Contacts(){
     return(
-        <section className='contacts flex-row main-card main-projects-contacts-card' id='form'>
-            <Formulary className='form-contact'/>
+        <section className='contacts flex-row main-card main-contacts-card' id='form'>
+            <div className="formulary-to-send flex-column">
+                <Formulary />
+            </div>
             <div className="nets-contacts flex-column">
                 <div className='net-contact'>
                     <ul className='nets flex-row'>
