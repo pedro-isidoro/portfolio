@@ -1,54 +1,6 @@
-/*? Languages  */
-.skills .languages-skills{
-    width: 100%;
-    height: 40rem;
-    font-size: 4rem;
-}
-
-.skills .languages-skills h2{
-    width: 100%;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.skills .languages-skills li i{
-    padding-right: 1rem;
-}
-
-.skills .languages-skills li, .skills .languages-skills li a i,.skills .languages-skills li a{
-    font-size: 2rem;
-}
-
-.skills .languages-skills .languages, .skills .languages-skills .library{
-    width: 50%;
-}
-
-.skills .languages-skills .languages ul li, .skills .languages-skills .library ul li, .skills .soft-skills ul li{
-    list-style: circle;
-}
-
-.skills .languages-skills .languages .html, .skills .languages-skills .languages .html a{
-    color: var(--html-color);
-}
-
-.skills .languages-skills .languages .css, .skills .languages-skills .languages .css a{
-    color: var(--css-color);
-}
-
-.skills .languages-skills .languages .js, 
-.skills .languages-skills .library .library-hover:hover{
-    color: var(--js-color);
-}
-
-.skills .languages-skills .languages .html:hover,
-.skills .languages-skills .languages .css:hover,
-.skills .languages-skills .languages .js:hover{
-    color: var(--whatsapp-color);
-}
-
 /*? Soft Skills  */
 .skills .soft-skills{
-    width: 100%;
+    width: 50%;
     height: 40rem;
     padding: 1rem 2rem;
 }
@@ -59,10 +11,108 @@
     text-align: center;
 }
 
-.skills .soft-skills li{
+.skills .soft-skills ul li{
     font-size: 2rem;
+    list-style: circle;
 }
 
 .skills .soft-skills li:nth-child(n+1):nth-child(-n+5){
     margin-bottom: 1rem;
+}
+
+/*? Languages */
+.skills .languages-skills{
+    width: 50%;
+    height: 90%;
+    font-size: 4rem;
+    gap: 2rem;
+}
+
+.skills .languages-skills h2{
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills .languages-skills .languages{
+    width: 100%;
+    max-height: 90%;
+    gap: 2rem;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.skills .languages-skills .languages::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: var(--main-color);
+    border-radius: 1rem;
+}
+
+.skills .languages-skills .languages::-webkit-scrollbar-thumb{
+    background-color: var(--span-color-default);
+    border-radius: 1rem;
+}
+
+.skills .languages-skills .languages li{
+    text-align: center;
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    background-color: var(--languagens-card-color);
+    border-radius: 4rem;
+    perspective: 1000px; 
+    /* Isso dá a profundidade ao nosso item */
+}
+
+.skills .languages-skills .languages li i{
+    padding-bottom: 2rem;
+    font-size: 10rem;
+}
+
+.front, .back{
+    position: absolute;
+    /* Isso ocultará o verso do cartão */
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.front{
+    transform: rotateY(0deg);
+}
+
+.front p{
+    font-size: 2rem;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+.back p{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+}
+
+.skills .languages-skills .languages li:hover .front{
+    transform: rotateY(-180deg);
+}
+
+.skills .languages-skills .languages li:hover .back{
+    transform: rotateY(0deg);
+}
+
+/*? color */
+
+.skills .languages-skills .languages .html{
+    color: var(--html-color);
+}
+
+.skills .languages-skills .languages .css{
+    color: var(--css-color);
+}
+
+.skills .languages-skills .languages .js{
+    color: var(--js-color);
 }

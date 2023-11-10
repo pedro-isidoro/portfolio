@@ -80,7 +80,7 @@
         flex-direction: column;
     }
 
-    .skills .languages-skills .languages, .skills .languages-skills .library{
+    .skills .soft-skills, .skills .languages-skills{
         height: 50%;
         width: 100%;
     }
@@ -91,10 +91,6 @@
 
     .skills .languages-skills .heading-2{
         margin-bottom: 1rem;
-    }
-
-    .skills .languages-skills, .skills .soft-skills{
-        width: 100%;
     }
 
     .studies{
@@ -311,8 +307,31 @@
         gap: 1rem;
     }
 
+    .skills .soft-skills{
+        background-color: red;
+    }
+
+    .skills .languages-skills{
+        background-color: rgba(144, 238, 144, 0.397);
+    }
+
     .skills .languages-skills .heading-2, .skills .soft-skills .heading-2{
         margin-bottom: 2rem;
+    }
+
+    .skills .languages-skills .languages li{
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .skills .languages-skills .languages li i{
+        padding-bottom: 1rem;
+        font-size: 8rem;
+    }
+
+    .back p{
+        font-size: 1.6rem;
+        padding: 0 1rem;
     }
 
     .main-studies-card{
@@ -425,7 +444,7 @@
         padding: 1rem 0;
     }
 
-    .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
+    .skills .soft-skills ul{
         width: 80%;
         padding: 0;
     }
@@ -515,7 +534,7 @@
         font-size: 1.7rem;
     }
 
-    .skills .languages-skills .languages ul, .skills .languages-skills .library ul, .skills .soft-skills ul{
+    .skills .soft-skills ul{
         width: 100%;
         padding-left: 3rem;
     }
