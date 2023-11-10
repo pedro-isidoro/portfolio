@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
 import App from './components/app/App.jsx'
 import About from './components/pages/about/About.jsx'
 import Skills from './components/pages/skills/Skills.jsx'

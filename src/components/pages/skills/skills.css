@@ -11,7 +11,11 @@
     text-align: center;
 }
 
-.skills .languages-skills li, .skills .languages-skills li a{
+.skills .languages-skills li i{
+    padding-right: 1rem;
+}
+
+.skills .languages-skills li, .skills .languages-skills li a i,.skills .languages-skills li a{
     font-size: 2rem;
 }
 
@@ -31,19 +35,14 @@
     color: var(--css-color);
 }
 
-.skills .languages-skills .languages .js,
-.skills .languages-skills .languages .js a, 
-.skills .languages-skills .library ul li:hover, 
-.skills .languages-skills .library ul li a:hover{
+.skills .languages-skills .languages .js, 
+.skills .languages-skills .library .library-hover:hover{
     color: var(--js-color);
 }
 
 .skills .languages-skills .languages .html:hover,
-.skills .languages-skills .languages .html a:hover,
 .skills .languages-skills .languages .css:hover,
-.skills .languages-skills .languages .css a:hover,
-.skills .languages-skills .languages .js:hover,
-.skills .languages-skills .languages .js a:hover{
+.skills .languages-skills .languages .js:hover{
     color: var(--whatsapp-color);
 }
 

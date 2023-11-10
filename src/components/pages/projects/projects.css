@@ -8,10 +8,18 @@
     border-radius: 1.4rem;
 }
 
-.projects .links-projects .link-project:hover{
+.projects .links-projects .link-project:hover, .btn:hover{
     cursor: pointer;
     color: var(--color-default);
     background-color: var(--header-color);
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1.4rem;
+    background: none;
+    border: none;
 }
 
 /* Para os Projetos e suas linguagens */
@@ -45,16 +53,8 @@
     color: var(--span-color-default);
 }
 
-.btn{
-    font-size: 2rem;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    background: none;
-    border: none;
-}
-
-.project .github-links a:hover, .btn:hover{
+.project .github-links a:hover{
     cursor: pointer;
-    color: var(--dark-color);
-    background-color: var(--span-color-default);
+    color: var(--color-default);
+    background-color: var(--header-color);
 }
