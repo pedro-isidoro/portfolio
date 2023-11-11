@@ -34,6 +34,11 @@
     font-size: 1.8rem;
 }
 
+
+.studies .academic-studies .college .text li span, .studies .academic-studies .course .text li span, .studies .language-studies li span{
+    background-color: var(--back-span-color);
+}
+
 .studies .academic-studies .college img, .studies .academic-studies .course img{
     width: 25%;
 }

@@ -1,5 +1,7 @@
 body{
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
+    background: url(../images/background-image-2.png) center center no-repeat;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -10,7 +12,9 @@ body{
     height: 6rem;
     padding: 0 4rem;
     border-bottom: 0.2rem solid #000;
-    background-color: var(--header-color);
+    /* background-color: var(--header-color); */
+    backdrop-filter: blur(0.2rem);
+    -webkit-backdrop-filter: blur(0.2rem);
 }
 
 main{
@@ -45,15 +49,25 @@ footer{
 }
 
 span, .blue-color{
+    border-radius: 0.4rem;
+    padding: 0 0.2rem;
     color: var(--span-color-default);
+    background-color: var(--back-span-color);
 }
 
 .main-card{
     height: 56rem;
     width: 110rem;
     padding: 2rem 4rem;
-    background-color: var(--main-color);
     border-radius: 4rem;
     transition: 0.5s ease-in-out;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, var(--color-default) -6px -2px 16px 0px;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, var(--dark-color) -6px -2px 16px 0px; */
+    backdrop-filter: blur(1.5rem);
+    -webkit-backdrop-filter: blur(1.5rem);
+}
+
+.main-card, .header{
+    /* Para o efeito de vidro */
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.35);
 }

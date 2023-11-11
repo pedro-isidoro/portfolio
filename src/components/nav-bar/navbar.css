@@ -13,7 +13,7 @@
     cursor: pointer;
     border-radius: 1.8rem;
     color: var(--span-color-default);
-    background-color: var(--main-color);
+    background-color: var(--header-color);
 }   
 
 /* Menu para responsives */

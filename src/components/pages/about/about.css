@@ -25,6 +25,9 @@
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--span-color-default);
+    background-color: var(--back-span-color);
+    border-radius: 0.4rem;
+    padding: 0 0.2rem;
 }
 
 /*? TEXT */

@@ -6,12 +6,13 @@
     font-size: 2.4rem;
     padding: 1rem 2rem;
     border-radius: 1.4rem;
+    color: var(--span-color-default);
 }
 
 .projects .links-projects .link-project:hover, .projects-buttons .btn:hover{
     cursor: pointer;
-    color: var(--color-default);
-    background-color: var(--header-color);
+    color: var(--white-color);
+    background-color: var(--back-span-color);
 }
 
 .projects-buttons .btn{
@@ -33,6 +34,7 @@
 
 .project h3{
     font-size: 2.6rem;
+    color: var(--white-color);
 }
 
 .project .image-link{
@@ -51,11 +53,11 @@
     font-size: 1.9rem;
     padding: 0.4rem 1rem;
     border-radius: 2rem;
-    color: var(--span-color-default);
+    color: var(--white-color);
 }
 
 .project .github-links a:hover{
     cursor: pointer;
-    color: var(--color-default);
-    background-color: var(--header-color);
+    color: var(--white-default);
+    background-color: var(--back-span-color);
 }

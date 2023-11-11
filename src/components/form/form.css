@@ -11,8 +11,8 @@
 
 /* Estilizando o Scrool */
 .background-form::-webkit-scrollbar{
-    width: 1rem;
-    background-color: var(--main-color);
+    width: 0.8rem;
+    background-color: var(--scrollbar-color);
     border-radius: 1rem;
 }
 
@@ -52,6 +52,7 @@
 
 .formulary .item-formulary label span{
     color: var(--error-color);
+    background: none;
     font-size: 2rem;
     padding-left: 0.2rem;
 }
@@ -62,7 +63,7 @@
 
 .formulary .item-formulary input:focus, .formulary .item-formulary textarea:focus{
     color: var(--color-default);
-    background-color: var(--focus-color);
+    background-color: var(--btn-color);
 }
 
 .formulary .item-formulary input:focus::placeholder, .formulary .item-formulary textarea:focus::placeholder{
@@ -101,8 +102,8 @@
     width: 100%;
     padding: 1.2rem 0;
     border-radius: 1rem;
-    background-color: var(--body-color);
-    color: var(--color-default);
+    color: var(--white-color);
+    background-color: var(--btn-color);
     border: none;
 }
 

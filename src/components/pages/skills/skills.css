@@ -5,6 +5,10 @@
     padding: 1rem 2rem;
 }
 
+.skills .soft-skills .blue-color{
+    background-color: var(--back-span-color);
+}
+
 .skills .soft-skills h2{
     width: 100%;
     margin-bottom: 1rem;
@@ -28,6 +32,10 @@
     gap: 2rem;
 }
 
+.skills .languages-skills .blue-color{
+    background: none;
+}
+
 .skills .languages-skills h2{
     width: 100%;
     margin-bottom: 1rem;
@@ -45,8 +53,8 @@
 
 .skills .languages-skills .languages::-webkit-scrollbar{
     width: 0.8rem;
-    background-color: var(--main-color);
     border-radius: 1rem;
+    background-color: #00000039;
 }
 
 .skills .languages-skills .languages::-webkit-scrollbar-thumb{
@@ -68,6 +76,10 @@
 .skills .languages-skills .languages li i{
     padding-bottom: 2rem;
     font-size: 10rem;
+}
+
+.skills .languages-skills .languages .blue-color{
+    color: var(--react-color);
 }
 
 .front, .back{
