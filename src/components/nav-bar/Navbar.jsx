@@ -2,21 +2,26 @@ import { Link } from 'react-router-dom';
 import './navbar.css'
 
 function NavBar(){
+    function responsiveMenu(){
+        const menuUL = document.getElementById('menu-items');
+        const menuIcon = document.getElementById('hamburguer');
+        const header2 = document.getElementById('responsive-header')
+        
+        menuUL.classList.toggle('menu-reponsive');
+        menuIcon.classList.toggle('fa-bars');
+        menuIcon.classList.toggle('fa-xmark');
+        header2.classList.toggle('header2');
+    };
+
     return(
-        <header className='header'>
+        <header className='header' id='responsive-header'>
             <div className='logo'>
                 <h1>Portfólio</h1>
             </div>
             <nav className='menus flex-column'>
-                <input type="checkbox" id="menu-hamburguer" />
-                
-                <label htmlFor="menu-hamburguer">
-                    <div className="menu-2">
-                        <span className="hamburguer"></span>
-                    </div>
-                </label>
+                <i className='hamburguer fa-solid fa-bars' id='hamburguer' onClick={responsiveMenu}/>
                 {/*Para a navegação com o react router*/}
-                <ul className="menu flex-row">
+                <ul className="menu flex-row" id='menu-items'>
                     <li><Link to="/" className='link'>Bio</Link></li>
                     <li><Link to="/skills" className='link'>Habilidades</Link></li>
                     <li><Link to="/studies" className='link'>Estudos</Link></li>

@@ -37,7 +37,7 @@ function JSReact(){
                         </a>
                         <div className="github-links  flex-row">
                             <a href="https://github.com/pedro-isidoro/portfolio" target="_blank">GitHub Repository</a>
-                            <a href="https://my-portfolio-pxf0aru9o-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
+                            <a href="/">Vercel</a>
                         </div>
                     </li>
                     {/*

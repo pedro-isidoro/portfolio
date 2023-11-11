@@ -1,8 +1,5 @@
 :root{
     --header-color: rgba(237, 207, 207, 0.8);
-    --header-color-pop: rgba(116, 78, 255, 0.8);
-    --body-color: rgb(15, 0, 71);
-    --main-color: rgb(10, 15, 66);
     
     --color-default: rgb(0, 0, 0);
     --white-color: rgb(255, 233, 224);
@@ -11,8 +8,8 @@
     --back-span-color: rgba(237, 207, 207, 0.6);
     --error-color: rgb(255, 0, 0);
     --btn-color: rgb(255, 100, 113);
-    /* --card-color: rgba(84, 81, 81, 0.534); */
     --card-color: rgba(206, 106, 106, 0.595);
+    --card-header-color: rgba(206, 106, 106, 0.84);
     --scrollbar-color: rgba(0, 0, 0, 0.224);
     
     

@@ -51,9 +51,10 @@
 
 .project .github-links a{
     font-size: 1.9rem;
+    font-weight: 600;
     padding: 0.4rem 1rem;
     border-radius: 2rem;
-    color: var(--white-color);
+    color: var(--dark-color);
 }
 
 .project .github-links a:hover{
