@@ -81,7 +81,7 @@
 .skills .languages-skills .languages .blue-color{
     color: var(--react-color);
 }
-
+/*? Cards  */
 .front, .back{
     position: absolute;
     /* Isso ocultará o verso do cartão */

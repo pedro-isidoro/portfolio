@@ -7,9 +7,9 @@ import Skills from './components/pages/skills/Skills.jsx'
 import ErrorPage from './ErrorPage.jsx'
 import Studies from './components/pages/studies/Studies.jsx'
 import Projects from './components/pages/projects/Projects.jsx'
-import HtmlCss from './components/pages/gifs-projects/html-css/HtmlCss.jsx'
-import JavaScript from './components/pages/gifs-projects/javascript/JavaScript.jsx'
-import JSReact from './components/pages/gifs-projects/react/JSReact.jsx'
+import HtmlCss from './components/pages/cards-projects/html-css/HtmlCss.jsx'
+import JavaScript from './components/pages/cards-projects/javascript/JavaScript.jsx'
+import JSReact from './components/pages/cards-projects/react/JSReact.jsx'
 import Contacts from './components/pages/contacts/Contacts.jsx'
 import './css/variables.css'
 import './css/reset.css'
@@ -40,15 +40,15 @@ const router = createBrowserRouter([
         },
         // Nested Routes - Rotas aninhadas - Identificador único
         {
-          path: "/projects/gifs-projects/html-css",
+          path: "/projects/cards-projects/html-css",
           element: <HtmlCss />,
         },
         {
-          path: "/projects/gifs-projects/html-css-js",
+          path: "/projects/cards-projects/html-css-js",
           element: <JavaScript />,
         },
         {
-          path: "/projects/gifs-projects/html-css-js-react",
+          path: "/projects/cards-projects/html-css-js-react",
           element: <JSReact />,
         },
         {

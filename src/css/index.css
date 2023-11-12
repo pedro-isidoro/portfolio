@@ -1,6 +1,6 @@
 body{
     /* background-color: var(--body-color); */
-    background: url(../images/background/computer/background-image-2.png) center center no-repeat;
+    background: url(../images/background/background-image-2.png) center center no-repeat;
     background-size: cover;
     min-height: 100vh;
 }

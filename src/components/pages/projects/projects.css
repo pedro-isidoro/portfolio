@@ -25,31 +25,53 @@
 
 /* Para os Projetos e suas linguagens */
 .project{
-    width: 55rem;
+    text-align: center;
+    position: relative;
+    height: 30rem;
+    width: 40rem;
     padding: 1rem;
     gap: 2rem;
     border-radius: 4rem;
+    perspective: 1000px; 
     background-color: var(--card-color);
 }
 
-.project h3{
+.project .project-front, .project .project-back{
+    position: absolute;
+    /* Isso ocultará o verso do cartão */
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.project .project-front{
+    transform: rotateY(0deg);
+}
+
+.project .project-front h3{
     font-size: 2.6rem;
     color: var(--white-color);
 }
 
-.project .image-link{
+.project .project-front .image-link{
+    width: 85%;
+}
+
+.project .project-back{
+    padding: 0 1rem;
+    transform: rotateY(180deg);
+}
+
+.project .project-back p{
     font-size: 2rem;
+    margin-bottom: 1.8rem;
 }
 
-.project .image-link img{
-    width: 100%;
-}
-
-.project .github-links{
+.project .project-back .github-links{
     gap: 1rem;
 }
 
-.project .github-links a{
+.project .project-back .github-links a{
     font-size: 1.9rem;
     font-weight: 600;
     padding: 0.4rem 1rem;
@@ -57,8 +79,16 @@
     color: var(--dark-color);
 }
 
-.project .github-links a:hover{
+.project .project-back .github-links a:hover{
     cursor: pointer;
     color: var(--white-default);
     background-color: var(--back-span-color);
+}
+
+.project:hover .project-front{
+    transform: rotateY(-180deg);
+}
+
+.project:hover .project-back{
+    transform: rotateY(0deg);
 }

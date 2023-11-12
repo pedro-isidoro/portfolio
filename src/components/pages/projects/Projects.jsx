@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './projects.css'
-import '../gifs-projects/gifs-projects.css'
+import '../cards-projects/cards-projects.css'
 
 function Projects(){
     return(
@@ -9,9 +9,9 @@ function Projects(){
                 <h2 className='heading-2'>Projetos</h2>
             </div>
             <ul className='links-projects flex-row'>
-                <Link className='link-project' to="/projects/gifs-projects/html-css">HTML/CSS</Link>
-                <Link className='link-project' to="/projects/gifs-projects/html-css-js">JavaScript</Link>
-                <Link className='link-project' to="/projects/gifs-projects/html-css-js-react">React</Link>
+                <Link className='link-project' to="/projects/cards-projects/html-css">HTML/CSS</Link>
+                <Link className='link-project' to="/projects/cards-projects/html-css-js">JavaScript</Link>
+                <Link className='link-project' to="/projects/cards-projects/html-css-js-react">React</Link>
             </ul>
         </section>
     );
