@@ -30,7 +30,7 @@
 - E juntamente da Biblioteca EmailJS, com esses dados armazenados pelo Hook Form, utilizei suas ferramentas e métodos para enviar as informações inseridas pelo usuário, por email para a agência.
 
 ## Resultado
-<img src="./src/images/gifs/html-css-javascript-react/my-portfolio.gif">
+<img src="./src/images/my-portfolio.gif">
 
 ### Responsivo
 <img src="./src/images/my-responsive-portfolio.gif">
