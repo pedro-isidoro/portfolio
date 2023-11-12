@@ -105,6 +105,7 @@
 .back p{
     font-size: 1.8rem;
     padding: 1rem 2rem;
+    color: var(--white-color);
 }
 
 .skills .languages-skills .languages li:hover .front{

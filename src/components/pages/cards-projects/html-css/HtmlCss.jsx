@@ -29,7 +29,7 @@ function HtmlCss(){
                             <img src={MoviesLibraryGif} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um projeto pessoal mostrando minhas séries de livros e animações orientais e ocidentais vistas.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/Projeto-Pessoal" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/projeto-pessoal/" target="_blank">GitHub Pages</a>
@@ -42,7 +42,7 @@ function HtmlCss(){
                             <img src={LibraryGif} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um projeto na forma de biblioteca, onde estarão a mostra livros os quais consumi desde minha pequenez.</p>
                             <div className="github-links  flex-row">
                                 <a href="https://github.com/pedro-isidoro/newspaper-style-books.git" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/parchment-of-books/" target="_blank">GitHub Pages</a>
@@ -55,7 +55,7 @@ function HtmlCss(){
                             <img src={AnniversaryGif} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um projeto feito como Checklist para uma festa de aniversário.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/anniversary-project" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank">GitHub Pages</a>
@@ -68,7 +68,7 @@ function HtmlCss(){
                             <img src={LandingPageGif} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um projeto introdutório de Landing Page do curso DevQuest.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/landing-page" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/landing-page/" target="_blank">GitHub Pages</a>

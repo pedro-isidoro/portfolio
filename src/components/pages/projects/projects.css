@@ -11,7 +11,7 @@
 
 .projects .links-projects .link-project:hover, .projects-buttons .btn:hover{
     cursor: pointer;
-    color: var(--white-color);
+    color: var(--color-default);
     background-color: var(--back-span-color);
 }
 
@@ -21,6 +21,11 @@
     border-radius: 1.4rem;
     background: none;
     border: none;
+    color: var(--span-color-default);
+}
+
+.projects-buttons .btn:hover{
+    color: var(--color-default);
 }
 
 /* Para os Projetos e suas linguagens */
@@ -65,6 +70,7 @@
 .project .project-back p{
     font-size: 2rem;
     margin-bottom: 1.8rem;
+    color: var(--white-color);
 }
 
 .project .project-back .github-links{

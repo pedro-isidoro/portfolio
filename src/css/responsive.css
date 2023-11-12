@@ -28,7 +28,7 @@
     }
 }
 
-@media(max-width: 1025px){
+@media(max-width: 1120px){
     main{
         height: 56rem;
     }
@@ -52,12 +52,17 @@
         font-size: 1.9rem;
     }
 
+    .html-css-project-list, .js-project-list, .react-project-list{
+        height: 80%;
+        width: 50%;
+    }
+
     .project{
         width: 40rem;
     }
 }
 
-@media(max-width: 1120px){
+@media(max-width: 990px){
     main{
         height: 104rem;
     }
@@ -133,7 +138,7 @@
 
     .html-css-project-list, .js-project-list, .react-project-list{
         height: 80%;
-        width: 90%;
+        width: 60%;
     }
 
     .html-css-project-list .html-css-project, .js-project-list .js-project, .react-project-list .react-project{
@@ -209,9 +214,14 @@
     .main-card{
         width: 71rem;
     }
+
+    .html-css-project-list, .js-project-list, .react-project-list{
+        height: 80%;
+        width: 65%;
+    }
 }
 
-@media(max-width: 601px){
+@media(max-width: 740px){
     .header input:checked ~ .menu{
         margin-right: 0.2rem;
     }

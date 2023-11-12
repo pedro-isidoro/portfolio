@@ -26,7 +26,7 @@ function JSReact(){
                             <img src={BasicReactQuest} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um desafio do Curso DevQuest do módulo de React básico.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/quest-basic-react" target="_blank">GitHub Repository</a>
                                 <a href="https://quest-basic-react-ch24tkbah-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
@@ -39,7 +39,7 @@ function JSReact(){
                             <img src={portfolio} className="image-link" />
                         </div>
                         <div className='project-back'>    
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>                        
+                            <p>Reconstrui meu antigo portifólio, trazendo meus novos conhecimentos adquiridos com o tempo de estudo, esforço e prática.</p>                        
                             <div className="github-links  flex-row">
                                 <a href="https://github.com/pedro-isidoro/portfolio" target="_blank">GitHub Repository</a>
                                 <a href="/">Vercel</a>

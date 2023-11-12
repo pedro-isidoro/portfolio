@@ -28,7 +28,7 @@ function JavaScript(){
                             <img src={AdviceGenerator} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um desafio do curso DevQuest, para criar um gerador de conselhos usando uma API.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/meu-gerador-de-conselho" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank">GitHub Pages</a>
@@ -41,7 +41,7 @@ function JavaScript(){
                             <img src={ValidationForm} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um desafio do curso DevQuest para se construir um formulário com validação.</p>
                             <div className="github-links  flex-row">
                                 <a href="https://github.com/pedro-isidoro/quest-intermediaria-form-com-validacao" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank">GitHub Pages</a>
@@ -54,7 +54,7 @@ function JavaScript(){
                             <img src={PedroFlix} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Uma landing page se espelhando em um modelo de streaming. Onde estarão carrosseis com imagens de filmes, em seus respectivos gêneros.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/pedroflix-movie-slider" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank">GitHub Pages</a>
@@ -67,7 +67,7 @@ function JavaScript(){
                             <img src={PokemonPhoto} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Um projeto contendo uma página com um carrossel de cards com imagem e informação de pokémons.</p>
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank">GitHub Pages</a>
