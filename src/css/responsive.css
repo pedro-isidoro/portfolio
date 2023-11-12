@@ -273,6 +273,12 @@
     }
 }
 
+@media(max-width: 601px){
+    .html-css-project-list, .js-project-list, .react-project-list{
+        width: 90%;
+    }
+}
+
 @media(max-width: 598px){
     .header input:checked ~ .menu{
         margin-right: 0rem;
@@ -370,7 +376,7 @@
     }
 
     .main-studies-card{
-        max-height: 90rem;
+        max-height: 88rem;
     }
 
     .studies{
@@ -386,7 +392,7 @@
     }
 
     .studies .academic-studies .college img, .studies .academic-studies .course img{
-        width: 40%;
+        width: 30%;
         margin-bottom: 3rem;
     }
 
@@ -396,6 +402,15 @@
 
     .studies .academic-studies .college .text{
         margin-bottom: 2rem;
+    }
+
+    .html-css-project-list, .js-project-list, .react-project-list{
+        width: 100%;
+    }
+
+    .project{
+        width: 95%;
+        height: 26rem;
     }
 
     .project h3, .project .github-links{
@@ -427,14 +442,6 @@
 
     .main-projects-html-css-card, .main-projects-html-css-js-card, .main-projects-html-css-js-react-card{
         max-height: 80rem;
-    }
-
-    .html-css-project-list, .js-project-list, .react-project-list{
-        width: 100%;
-    }
-
-    .project{
-        width: 100%;
     }
 
     .contacts .formulary-to-send{
@@ -509,6 +516,10 @@
     .about .about-me .heading-2{
         font-size: 2.2rem;
         margin-bottom: 1rem;
+    }
+
+    .project{
+        height: 24rem;
     }
 }
 
@@ -601,6 +612,10 @@
 
     .back p{
         font-size: 1.7rem;
+    }
+
+    .main-studies-card{
+        max-height: 80rem;
     }
 
     .heading-2, .studies .academic-studies .college .text .heading-2 a, .studies .academic-studies .course .text .heading-2 a{
