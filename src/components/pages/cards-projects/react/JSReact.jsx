@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import BasicReactQuest from '/src/images/html-css-javascript-react/quest-react-basico.png'
 import portfolio from '/src/images/html-css-javascript-react/my-portfolio.png'
+import desafio01Alura from '/src/images/html-css-javascript-react/conversor.png'
 
 function JSReact(){
     const navigate = useNavigate();
@@ -46,6 +47,21 @@ function JSReact(){
                             </div>
                         </div>
                     </li>
+                    
+                    <li className="project flex-column">
+                        <div className='project-front flex-column'>
+                            <h3>Conversor</h3>
+                            <img src={desafio01Alura} className="image-link" />
+                            </div>
+                        <div className='project-back'>
+                            <p>Desafio proposta na imersão Alura, para se criar um conversor de valores.</p>
+                            <div className="github-links flex-row">
+                                <a href="https://github.com/pedro-isidoro/Alura-Desafio01" target="_blank">GitHub Repository</a>
+                                <a href="https://alura-desafio01-4loruaozz-pedro-isidoros-projects.vercel.app/" target="_blank">Vercel</a>
+                            </div>
+                        </div>
+                    </li> 
+                   
                     {/*
                     <li className="project flex-column">
                         <div className='project-front flex-column'>

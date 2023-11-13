@@ -23,32 +23,6 @@ function JavaScript(){
             <div className="js-project-list flex-row">
                 <ul className="js-project flex-row">
                     <li className="project flex-column">
-                        <div className='project-front flex-column'>
-                            <h3>Gerador de Conselhos</h3>
-                            <img src={AdviceGenerator} className="image-link" />
-                        </div>
-                        <div className='project-back'>
-                            <p>Um desafio do curso DevQuest, para criar um gerador de conselhos usando uma API.</p>
-                            <div className="github-links flex-row">
-                                <a href="https://github.com/pedro-isidoro/meu-gerador-de-conselho" target="_blank">GitHub Repository</a>
-                                <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank">GitHub Pages</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li className="project flex-column">
-                        <div className='project-front flex-column'>
-                            <h3>Quest JS Avançado</h3>
-                            <img src={ValidationForm} className="image-link" />
-                        </div>
-                        <div className='project-back'>
-                            <p>Um desafio do curso DevQuest para se construir um formulário com validação.</p>
-                            <div className="github-links  flex-row">
-                                <a href="https://github.com/pedro-isidoro/quest-intermediaria-form-com-validacao" target="_blank">GitHub Repository</a>
-                                <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank">GitHub Pages</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li className="project flex-column">
                         <div className='project-front flex-column'>                            
                             <h3>Pedroflix</h3>
                             <img src={PedroFlix} className="image-link" />
@@ -71,6 +45,32 @@ function JavaScript(){
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank">GitHub Pages</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <div className='project-front flex-column'>
+                            <h3>Quest JS Avançado</h3>
+                            <img src={ValidationForm} className="image-link" />
+                        </div>
+                        <div className='project-back'>
+                            <p>Um desafio do curso DevQuest para se construir um formulário com validação.</p>
+                            <div className="github-links  flex-row">
+                                <a href="https://github.com/pedro-isidoro/quest-intermediaria-form-com-validacao" target="_blank">GitHub Repository</a>
+                                <a href="https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/" target="_blank">GitHub Pages</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <div className='project-front flex-column'>
+                            <h3>Gerador de Conselhos</h3>
+                            <img src={AdviceGenerator} className="image-link" />
+                        </div>
+                        <div className='project-back'>
+                            <p>Um desafio do curso DevQuest, para criar um gerador de conselhos usando uma API.</p>
+                            <div className="github-links flex-row">
+                                <a href="https://github.com/pedro-isidoro/meu-gerador-de-conselho" target="_blank">GitHub Repository</a>
+                                <a href="https://pedro-isidoro.github.io/meu-gerador-de-conselho/" target="_blank">GitHub Pages</a>
                             </div>
                         </div>
                     </li>
