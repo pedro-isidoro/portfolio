@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import BasicReactQuest from '/src/images/html-css-javascript-react/quest-react-basico.png'
 import portfolio from '/src/images/html-css-javascript-react/my-portfolio.png'
 import desafio01Alura from '/src/images/html-css-javascript-react/conversor.png'
+import myRecipes from '/src/images/html-css-javascript-react/my-recipes.png'
 
 function JSReact(){
     const navigate = useNavigate();
@@ -62,21 +63,20 @@ function JSReact(){
                         </div>
                     </li> 
                    
-                    {/*
+                    
                     <li className="project flex-column">
                         <div className='project-front flex-column'>
                             <h3>Pessoal</h3>
-                            <img src={} className="image-link" />
+                            <img src={myRecipes} className="image-link" />
                             </div>
                         <div className='project-back'>
-                            <p>Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.</p>
+                            <p>Uma Landing Page para armazenar minhas receitas preferidas, e para facilitar usei React Rounter na navegação.</p>
                             <div className="github-links flex-row">
-                                <a href="" target="_blank">GitHub Repository</a>
-                                <a href="" target="_blank">GitHub Pages</a>
+                                <a href="https://github.com/pedro-isidoro/my-recipes" target="_blank">GitHub Repository</a>
+                                <a href="https://my-recipes-three.vercel.app/" target="_blank">Vercel</a>
                             </div>
                         </div>
                     </li> 
-                    */}
                 </ul>
             </div>
         </section>
