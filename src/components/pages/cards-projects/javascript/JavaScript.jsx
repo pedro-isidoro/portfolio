@@ -1,8 +1,9 @@
 import { useNavigate } from "react-router-dom";
+import AnniversaryGif from '/src/images/html-css-javascript/anniversary-project.png'
+import PokemonPhoto from '/src/images/html-css-javascript/carrossel-de-imagens-pokemon.png'
+import PedroFlix from '/src/images/html-css-javascript/pedroflix.png'
 import AdviceGenerator from '/src/images/html-css-javascript/gerador-de-conselhos.png'
 import ValidationForm from '/src/images/html-css-javascript/quest-js-intermediaria.png'
-import PedroFlix from '/src/images/html-css-javascript/pedroflix.png'
-import PokemonPhoto from '/src/images/html-css-javascript/carrossel-de-imagens-pokemon.png'
 
 function JavaScript(){
     const navigate = useNavigate();
@@ -23,15 +24,15 @@ function JavaScript(){
             <div className="js-project-list flex-row">
                 <ul className="js-project flex-row">
                     <li className="project flex-column">
-                        <div className='project-front flex-column'>                            
-                            <h3>Pedroflix</h3>
-                            <img src={PedroFlix} className="image-link" />
+                        <div className='project-front flex-column'>
+                            <h3>Projeto de Aniversário</h3>
+                            <img src={AnniversaryGif} className="image-link" />
                         </div>
                         <div className='project-back'>
-                            <p>Uma landing page se espelhando em um modelo de streaming. Onde estarão carrosseis com imagens de filmes, em seus respectivos gêneros.</p>
+                            <p>Um projeto feito como Checklist para uma festa de aniversário.</p>
                             <div className="github-links flex-row">
-                                <a href="https://github.com/pedro-isidoro/pedroflix-movie-slider" target="_blank">GitHub Repository</a>
-                                <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank">GitHub Pages</a>
+                                <a href="https://github.com/pedro-isidoro/anniversary-project" target="_blank">GitHub Repository</a>
+                                <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank">GitHub Pages</a>
                             </div>
                         </div>
                     </li>
@@ -45,6 +46,19 @@ function JavaScript(){
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/" target="_blank">GitHub Pages</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <div className='project-front flex-column'>                            
+                            <h3>Pedroflix</h3>
+                            <img src={PedroFlix} className="image-link" />
+                        </div>
+                        <div className='project-back'>
+                            <p>Uma landing page se espelhando em um modelo de streaming. Onde estarão carrosseis com imagens de filmes, em seus respectivos gêneros.</p>
+                            <div className="github-links flex-row">
+                                <a href="https://github.com/pedro-isidoro/pedroflix-movie-slider" target="_blank">GitHub Repository</a>
+                                <a href="https://pedro-isidoro.github.io/pedroflix-movie-slider/" target="_blank">GitHub Pages</a>
                             </div>
                         </div>
                     </li>

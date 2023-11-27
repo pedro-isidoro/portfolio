@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import MoviesLibraryGif from '/src/images/html-css/bliblioteca-de-livros-pessoal.png'
 import LibraryGif from '/src/images/html-css/biblioteca-pessoal.png'
-import AnniversaryGif from '/src/images/html-css/anniversary-project.png'
 import LandingPageGif from '/src/images/html-css/landing-page.png'
 
 function HtmlCss(){
@@ -46,19 +45,6 @@ function HtmlCss(){
                             <div className="github-links  flex-row">
                                 <a href="https://github.com/pedro-isidoro/newspaper-style-books.git" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/parchment-of-books/" target="_blank">GitHub Pages</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li className="project flex-column">
-                        <div className='project-front flex-column'>
-                            <h3>Projeto de Aniversário</h3>
-                            <img src={AnniversaryGif} className="image-link" />
-                        </div>
-                        <div className='project-back'>
-                            <p>Um projeto feito como Checklist para uma festa de aniversário.</p>
-                            <div className="github-links flex-row">
-                                <a href="https://github.com/pedro-isidoro/anniversary-project" target="_blank">GitHub Repository</a>
-                                <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank">GitHub Pages</a>
                             </div>
                         </div>
                     </li>
