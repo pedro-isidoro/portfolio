@@ -10,7 +10,7 @@ const handleForm = (data) => {
     };
     // Pegando as informações para colocar no templateEmail
     const templateParams = {
-        from_name: data.name,
+        name: data.name,
         email: data.email,
         telephone: data.telephone,
         instagram: data.instagram,

@@ -161,6 +161,10 @@
         width: 75%;
         max-height: 90%;
     }
+
+    /* .contacts .formulary-to-send{
+        display: none;
+    } */
 }
 
 @media (max-width: 810px){   
