@@ -26,6 +26,7 @@ function NavBar(){
                     <li><Link to="/skills" className='link'>Habilidades</Link></li>
                     <li><Link to="/studies" className='link'>Estudos</Link></li>
                     <li><Link to="/projects" className='link'>Projetos</Link></li>
+                    <li><Link to="/mine-slide-show" className='link'>Slide-Show</Link></li>
                     <li><Link to="/contacts" className='link'>Contato</Link></li>
                 </ul>
             </nav>
