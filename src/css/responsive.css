@@ -21,7 +21,7 @@
         height: 56rem;
     }
 
-    .main-card{
+    .main-card, .slide-video{
         height: 52rem;
         width: 110rem;
         padding: 2rem 4rem;
@@ -50,6 +50,17 @@
 
     .about .about-text p, .about .about-text p span{
         font-size: 1.9rem;
+    }
+
+    .slide-video{
+        height: 48rem;
+        width: 97rem;
+        padding: 2rem;
+    }
+
+    .slide-video video{
+        width: 60.0rem;
+        height: 40.0rem;
     }
 
     .html-css-project-list, .js-project-list, .react-project-list{
@@ -90,6 +101,17 @@
 
     .about .about-text p, .about .about-text p span{
         font-size: 2.1rem;
+    }
+
+    .slide-video{
+        height: 60rem;
+        width: 76rem;
+        padding: 4rem 2rem;
+    }
+
+    .slide-video video{
+        width: 60.0rem;
+        height: 40.0rem;
     }
 
     .skills .languages-skills{
@@ -167,7 +189,7 @@
     } */
 }
 
-@media (max-width: 810px){   
+@media (max-width: 870px){   
     .header{
         flex-direction: column;
         justify-content: center;
@@ -190,8 +212,7 @@
     }
     
     .header2{
-        height: 32rem;
-
+        height: 36rem;
     }
 
     .header2 .logo{
@@ -207,6 +228,12 @@
     .header2 .menus .menu.menu-reponsive{
         display: flex;
         height: 100%;
+    }
+}
+
+@media(max-width: 810px){
+    .slide-video{
+        width: 70rem;
     }
 }
 
@@ -274,6 +301,26 @@
     .contacts .formulary-to-send{
         width: 90%;
         max-height: 90%;
+    }
+}
+
+@media(max-width: 720px){
+    .slide-video{
+        width: 60rem;
+    }
+
+    .slide-video video{
+        width: 50.0rem;
+    }
+}
+
+@media(max-width: 630px){
+    .slide-video{
+        width: 50rem;
+    }
+
+    .slide-video video{
+        width: 40.0rem;
     }
 }
 
@@ -472,6 +519,17 @@
     }
 }
 
+@media(max-width: 520px){
+    .slide-video{
+        width: 42rem;
+        height: 60rem;
+    }
+
+    .slide-video video{
+        width: 40.0rem;
+    }
+}
+
 @media(max-width: 500px){
     .about{
         padding: 10rem 0 4rem 0;
@@ -482,11 +540,33 @@
     .about{
         padding: 8rem 0 6rem 0;
     }
+
+    .slide-video{
+        width: 40rem;
+        height: 50rem;
+    }
+
+    .slide-video video{
+        width: 34.0rem;
+    }
 }
 
 @media(max-width: 393px){
     .about{
         padding: 9rem 0 6rem 0;
+    }
+
+    .slide-video{
+        width: 34rem;
+        height: 50rem;
+    }
+
+    .slide-video .heading-2{
+        font-size: 2rem;
+    }
+
+    .slide-video video{
+        width: 30.0rem;
     }
 
     .skills .languages-skills .heading-2{
@@ -596,6 +676,15 @@
         font-size: 1.7rem;
     }
 
+    .slide-video{
+        width: 32rem;
+        height: 48rem;
+    }
+
+    .slide-video video{
+        width: 28.0rem;
+    }
+
     .skills .soft-skills ul{
         width: 100%;
         padding-left: 3rem;
@@ -665,6 +754,18 @@
 @media(max-width: 332px){
     .about{
         padding: 4rem 0 4rem 0;
+    }
+
+    .slide-video{
+        width: 30rem;
+    }
+
+    .slide-video .heading-2{
+        font-size: 1.89rem;
+    }
+
+    .slide-video video{
+        width: 26.0rem;
     }
 
     .project .github-links a{
