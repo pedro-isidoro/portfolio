@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import AnniversaryGif from '/src/images/html-css-javascript/anniversary-project.png'
+import simplePokedex from '/src/images/html-css-javascript/simple-pokedex.png'
 import PokemonPhoto from '/src/images/html-css-javascript/carrossel-de-imagens-pokemon.png'
 import PedroFlix from '/src/images/html-css-javascript/pedroflix.png'
-import AdviceGenerator from '/src/images/html-css-javascript/gerador-de-conselhos.png'
 import ValidationForm from '/src/images/html-css-javascript/quest-js-intermediaria.png'
+import AdviceGenerator from '/src/images/html-css-javascript/gerador-de-conselhos.png'
 
 function JavaScript(){
     const navigate = useNavigate();
@@ -33,6 +34,19 @@ function JavaScript(){
                             <div className="github-links flex-row">
                                 <a href="https://github.com/pedro-isidoro/anniversary-project" target="_blank">GitHub Repository</a>
                                 <a href="https://pedro-isidoro.github.io/anniversary-project/" target="_blank">GitHub Pages</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="project flex-column">
+                        <div className='project-front flex-column'>
+                            <h3>Projeto Pokédex Simples</h3>
+                            <img src={simplePokedex} className="image-link" />
+                        </div>
+                        <div className='project-back'>
+                            <p>Um projeto feito como prática e prelurdio para um mais avançado.</p>
+                            <div className="github-links flex-row">
+                                <a href="https://github.com/pedro-isidoro/simple-pokedex" target="_blank">GitHub Repository</a>
+                                <a href="https://pedro-isidoro.github.io/simple-pokedex/" target="_blank">GitHub Pages</a>
                             </div>
                         </div>
                     </li>
