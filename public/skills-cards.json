@@ -1,0 +1,50 @@
+[
+    {
+       "LiClassName": "html flex-column",
+       "DivFrontIClassName": "html fab fa-html5 html",
+       "DivFrontPClassName": "html",
+       "DivFrontPText": "HTML 5",
+       "DivBackPText": "Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos.",
+       "DivBackLink": "x"
+    },
+    {
+       "LiClassName": "css flex-column",
+       "DivFrontIClassName": "css fab fa-css3-alt css",
+       "DivFrontPClassName": "css",
+       "DivFrontPText": "CSS 3",
+       "DivBackPText": "Linguagem que usamos para estilizar um documento HTML.",
+       "DivBackLink": "x"
+    },
+    {
+       "LiClassName": "js flex-column",
+       "DivFrontIClassName": "js fab fa-js-square js",
+       "DivFrontPClassName": "js",
+       "DivFrontPText": "JavaScript <br/> (Intemediário)",
+       "DivBackPText": "Linguagem de programação da Web e a linguagem de programação mais popular do mundo.",
+       "DivBackLink": "x"
+    },
+    {
+       "LiClassName": "flex-column react blue-color",
+       "DivFrontIClassName": "blue-color fab fa-react library-hover",
+       "DivFrontPClassName": "blue-color",
+       "DivFrontPText": "React <br/> (Intermediário)",
+       "DivBackPText": "É a biblioteca para interfaces de usuário web e nativas.",
+       "DivBackLink": "x"
+    },
+    {
+       "LiClassName": "flex-column react-hook-form blue-color",
+       "DivFrontIClassName": "blue-color fab fa-react library-hover",
+       "DivFrontPClassName": "blue-color",
+       "DivFrontPText": "React Hook Form <br/> (Básico)",
+       "DivBackPText": "Biblioteca para formulários de alto desempenho, flexíveis e extensíveis com validação.",
+       "DivBackLink": "x"
+    },
+    {
+       "LiClassName": "flex-column react-rounter blue-color",
+       "DivFrontIClassName": "blue-color fab fa-react library-hover",
+       "DivFrontPClassName": "blue-color",
+       "DivFrontPText": "React Router <br/> (Básico)",
+       "DivBackPText": "Permite 'roteamento do lado do cliente', e isso traz experiências de usuário mais rápidas.",
+       "DivBackLink": "x"
+    }
+]

@@ -64,7 +64,7 @@ function JavaScript(){
                         </div>
                     </li>
                     <li className="project flex-column">
-                        <div className='project-front flex-column'>                            
+                        <div className='project-front flex-column'>
                             <h3>Pedroflix</h3>
                             <img src={PedroFlix} className="image-link" />
                         </div>

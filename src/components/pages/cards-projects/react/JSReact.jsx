@@ -62,7 +62,6 @@ function JSReact(){
                             </div>
                         </div>
                     </li> 
-                   
                     
                     <li className="project flex-column">
                         <div className='project-front flex-column'>
