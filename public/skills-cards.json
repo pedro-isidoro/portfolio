@@ -19,7 +19,7 @@
        "LiClassName": "js flex-column",
        "DivFrontIClassName": "js fab fa-js-square js",
        "DivFrontPClassName": "js",
-       "DivFrontPText": "JavaScript <br/> (Intemediário)",
+       "DivFrontPText": "JavaScript (Intemediário)",
        "DivBackPText": "Linguagem de programação da Web e a linguagem de programação mais popular do mundo.",
        "DivBackLink": "x"
     },
@@ -27,7 +27,7 @@
        "LiClassName": "flex-column react blue-color",
        "DivFrontIClassName": "blue-color fab fa-react library-hover",
        "DivFrontPClassName": "blue-color",
-       "DivFrontPText": "React <br/> (Intermediário)",
+       "DivFrontPText": "React (Intermediário)",
        "DivBackPText": "É a biblioteca para interfaces de usuário web e nativas.",
        "DivBackLink": "x"
     },
@@ -35,7 +35,7 @@
        "LiClassName": "flex-column react-hook-form blue-color",
        "DivFrontIClassName": "blue-color fab fa-react library-hover",
        "DivFrontPClassName": "blue-color",
-       "DivFrontPText": "React Hook Form <br/> (Básico)",
+       "DivFrontPText": "React Hook Form (Básico)",
        "DivBackPText": "Biblioteca para formulários de alto desempenho, flexíveis e extensíveis com validação.",
        "DivBackLink": "x"
     },
@@ -43,7 +43,7 @@
        "LiClassName": "flex-column react-rounter blue-color",
        "DivFrontIClassName": "blue-color fab fa-react library-hover",
        "DivFrontPClassName": "blue-color",
-       "DivFrontPText": "React Router <br/> (Básico)",
+       "DivFrontPText": "React Router (Básico)",
        "DivBackPText": "Permite 'roteamento do lado do cliente', e isso traz experiências de usuário mais rápidas.",
        "DivBackLink": "x"
     }

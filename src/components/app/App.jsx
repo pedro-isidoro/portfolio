@@ -37,6 +37,17 @@
           - Criar suas funcionalidades; ✅
         2b - Baixar o EmailJS; ✅
           - Criar suas funcionalidades; ✅
+?   5 - Criar arquivos .JSON para os cards; ✅
+!     a - Skills; ✅
+        1a - Criar objetos com as informações das hard-skills; ✅
+!     b - HTML E CSS; ✅
+        1b - Criar objetos com as informações dos projetos; ✅
+!     c - HTML e CSS e JS; ✅
+        1b - Criar objetos com as informações dos projetos; ✅
+!     d - HTML e CSS e Js e React; ✅
+        1b - Criar objetos com as informações dos projetos; ✅
+?   6 - Aplicxar no Projeto;
+!     a - Refatorar os arquivos dos cards;
 */
 // Para reaproveitar a estrutura usamos o outlet
 import { Outlet } from 'react-router-dom'
