@@ -1,42 +1,42 @@
 [
     {
         "h3FrontText": "Projeto de Aniversário",
-        "imgFrontSrc": "AnniversaryGif",
+        "imgFrontSrc": "/src/images/html-css-javascript/anniversary-project.png",
         "pBackText": "Um projeto feito como Checklist para uma festa de aniversário.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/anniversary-project",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/anniversary-project/"
     },
     {
         "h3FrontText": "Projeto Pokédex Simples",
-        "imgFrontSrc": "simplePokedex",
+        "imgFrontSrc": "/src/images/html-css-javascript/simple-pokedex.png",
         "pBackText": "Um projeto feito como prática e prelurdio para um mais avançado.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/simple-pokedex",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/simple-pokedex/"
     },
     {
         "h3FrontText": "Carrossel de Cards Pokémon",
-        "imgFrontSrc": "PokemonPhoto",
+        "imgFrontSrc": "/src/images/html-css-javascript/carrossel-de-imagens-pokemon.png",
         "pBackText": "Um projeto contendo uma página com um carrossel de cards com imagem e informação de pokémons.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/carrossel-de-cartoes-pokemon",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/carrossel-de-cartoes-pokemon/"
     },
     {
         "h3FrontText": "Pedroflix",
-        "imgFrontSrc": "PedroFlix",
+        "imgFrontSrc": "/src/images/html-css-javascript/pedroflix.png",
         "pBackText": "Uma landing page se espelhando em um modelo de streaming. Onde estarão carrosseis com imagens de filmes, em seus respectivos gêneros.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/pedroflix-movie-slider",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/pedroflix-movie-slider/"
     },
     {
         "h3FrontText": "Quest JS Avançado",
-        "imgFrontSrc": "ValidationForm",
+        "imgFrontSrc": "/src/images/html-css-javascript/quest-js-intermediaria.png",
         "pBackText": "Um desafio do curso DevQuest para se construir um formulário com validação.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/quest-intermediaria-form-com-validacao",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/quest-intermediaria-form-com-validacao/"
     },
     {
         "h3FrontText": "Gerador de Conselhos",
-        "imgFrontSrc": "AdviceGenerator",
+        "imgFrontSrc": "/src/images/html-css-javascript/gerador-de-conselhos.png",
         "pBackText": "Um desafio do curso DevQuest, para criar um gerador de conselhos usando uma API.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/meu-gerador-de-conselho",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/meu-gerador-de-conselho/"

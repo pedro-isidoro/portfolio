@@ -1,28 +1,28 @@
 [
     {
         "h3FrontText": "Quest de React Básico",
-        "imgFrontSrc": "BasicReactQuest",
+        "imgFrontSrc": "/src/images/html-css-javascript-react/quest-react-basico.png",
         "pBackText": "Um desafio do Curso DevQuest do módulo de React básico.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/quest-basic-react",
         "internalDivBackSecondLinkHref": "https://quest-basic-react-ch24tkbah-pedro-isidoros-projects.vercel.app/"
     },
     {
         "h3FrontText": "Portfólio",
-        "imgFrontSrc": "portfolio",
+        "imgFrontSrc": "/src/images/html-css-javascript-react/my-portfolio.png",
         "pBackText": "Reconstrui meu antigo portifólio, trazendo meus novos conhecimentos adquiridos com o tempo de estudo, esforço e prática.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/portfolio",
         "internalDivBackSecondLinkHref": "/"
     },
     {
         "h3FrontText": "Conversor",
-        "imgFrontSrc": "desafio01Alura",
+        "imgFrontSrc": "/src/images/html-css-javascript-react/conversor.png",
         "pBackText": "Desafio proposta na imersão Alura, para se criar um conversor de valores.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/Alura-Desafio01",
         "internalDivBackSecondLinkHref": "https://alura-desafio01-4loruaozz-pedro-isidoros-projects.vercel.app/"
     },
     {
         "h3FrontText": "Pessoal",
-        "imgFrontSrc": "myRecipes",
+        "imgFrontSrc": "/src/images/html-css-javascript-react/my-recipes.png",
         "pBackText": "Uma Landing Page para armazenar minhas receitas preferidas, e para facilitar usei React Rounter na navegação.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/my-recipes",
         "internalDivBackSecondLinkHref": "https://my-recipes-three.vercel.app/"
