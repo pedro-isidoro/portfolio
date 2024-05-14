@@ -11,7 +11,7 @@ function Skills() {
           const data = await response.json();
           setSkills(data);
         } catch (error) {
-          console.error("Erro ao buscar habilidades!!");
+          console.error("Erro ao buscar habilidades!!" + error);
         }
       };
       fetchData();

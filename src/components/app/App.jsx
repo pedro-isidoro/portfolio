@@ -46,8 +46,8 @@
         1b - Criar objetos com as informações dos projetos; ✅
 !     d - HTML e CSS e Js e React; ✅
         1b - Criar objetos com as informações dos projetos; ✅
-?   6 - Aplicxar no Projeto;
-!     a - Refatorar os arquivos dos cards;
+?   6 - Aplicxar no Projeto; ✅
+!     a - Refatorar os arquivos dos cards; ✅
 */
 // Para reaproveitar a estrutura usamos o outlet
 import { Outlet } from 'react-router-dom'
