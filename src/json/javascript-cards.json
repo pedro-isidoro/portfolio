@@ -14,6 +14,13 @@
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/pedroflix-movie-slider/"
     },
     {
+        "h3FrontText": "Calculadora Simples",
+        "imgFrontSrc": "/src/images/html-css-javascript/simple-calculator.png",
+        "pBackText": "Inspirada na calculadora do windows, desenvolvi a mesma na sua forma simples, usando como gui o vídeo do canal Hora de codar.",
+        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/calculator",
+        "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/calculator/"
+    },
+    {
         "h3FrontText": "Gerador de Conselhos",
         "imgFrontSrc": "/src/images/html-css-javascript/gerador-de-conselhos.png",
         "pBackText": "Um desafio do curso DevQuest, para criar um gerador de conselhos usando uma API.",
