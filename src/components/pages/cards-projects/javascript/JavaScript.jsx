@@ -21,7 +21,6 @@ function JavaScript() {
         setHtmlCssJsCards(data);
       } catch (error) {
         console.error("Erro ao buscar os projetos HTML e CSS!!");
-        console.log(setHtmlCssJsCards + error);
       }
     };
     fetchData();

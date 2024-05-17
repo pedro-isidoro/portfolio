@@ -21,7 +21,6 @@ function JSReact() {
         setJsReactCards(data);
       } catch (error) {
         console.error("Erro ao buscar os projetos HTML e CSS!!");
-        console.log(setJsReactCards + error);
       }
     };
     fetchData();
