@@ -16,7 +16,7 @@ function HtmlCss() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/src/json/html-css-cards.json");
+        const response = await fetch("./src/json/html-css-cards.json");
         const data = await response.json();
         setHtmlCssCards(data);
     } catch (error) {

@@ -7,7 +7,7 @@ function Skills() {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch("/src/json/skills-cards.json");
+          const response = await fetch("./src/json/skills-cards.json");
           const data = await response.json();
           setSkills(data);
         } catch (error) {
