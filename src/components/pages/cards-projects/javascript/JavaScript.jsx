@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import jsData from "../../../../json/javascript-cards.json";
+import jsData from "src/json/javascript-cards.json";
 
 function JavaScript() {
   const navigate = useNavigate();

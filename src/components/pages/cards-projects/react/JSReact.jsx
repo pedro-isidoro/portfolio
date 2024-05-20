@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import reactData from "../../../../json/js-react-cards.json";
-// import image from "../../../../images/"
+import reactData from "src/json/js-react-cards.json";
 
 function JSReact() {
   const navigate = useNavigate();

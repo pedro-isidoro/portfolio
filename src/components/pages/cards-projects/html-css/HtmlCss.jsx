@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import htmlCssData from "../../../../json/html-css-cards.json";
+import htmlCssData from "src/json/html-css-cards.json";
 
 function HtmlCss() {
   // redirect - redirecionamento na lógica
