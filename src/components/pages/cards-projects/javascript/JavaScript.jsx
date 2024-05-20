@@ -16,7 +16,7 @@ function JavaScript() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("./src/json/javascript-cards.json");
+        const response = await fetch(`/src/json/javascript-cards.json`);
         const data = await response.json();
         setHtmlCssJsCards(data);
       } catch (error) {

@@ -16,7 +16,7 @@ function JSReact() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("./src/json/js-react-cards.json");
+        const response = await fetch(`./src/json/js-react-cards.json`);
         const data = await response.json();
         setJsReactCards(data);
       } catch (error) {
