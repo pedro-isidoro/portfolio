@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import htmlCssData from "../../../../json/html-css-cards.json";
 
 function HtmlCss() {
   // redirect - redirecionamento na lógica
@@ -15,16 +16,7 @@ function HtmlCss() {
   const [htmlCssCards, setHtmlCssCards] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`/src/json/html-css-cards.json`);
-        const data = await response.json();
-        setHtmlCssCards(data);
-    } catch (error) {
-        console.error("Erro ao buscar os projetos HTML e CSS!!");
-    }
-    };
-    fetchData();
+    setHtmlCssCards(htmlCssData)
   }, []);
 
   return (

@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import reactData from "../../../../json/js-react-cards.json";
+// import image from "../../../../images/"
 
 function JSReact() {
   const navigate = useNavigate();
@@ -14,16 +16,7 @@ function JSReact() {
   const [jsReactCards, setJsReactCards] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`./src/json/js-react-cards.json`);
-        const data = await response.json();
-        setJsReactCards(data);
-      } catch (error) {
-        console.error("Erro ao buscar os projetos HTML e CSS!!");
-      }
-    };
-    fetchData();
+    setJsReactCards(reactData);
   }, []);
 
   return (

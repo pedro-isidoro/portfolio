@@ -1,21 +1,21 @@
 [
     {
         "h3FrontText": "'Estante' de séries",
-        "imgFrontSrc": "/src/images/html-css/bliblioteca-de-livros-pessoal.png",
+        "imgFrontSrc": "src/images/html-css/bliblioteca-de-livros-pessoal.png",
         "pBackText": "Um projeto pessoal mostrando minhas séries de livros e animações orientais e ocidentais vistas.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/Projeto-Pessoal",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/projeto-pessoal/"
     },
     {
         "h3FrontText": "Biblioteca Pessoal",
-        "imgFrontSrc": "/src/images/html-css/biblioteca-pessoal.png",
+        "imgFrontSrc": "src/images/html-css/biblioteca-pessoal.png",
         "pBackText": "Um projeto na forma de biblioteca, onde estarão a mostra livros os quais consumi desde minha pequenez.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/newspaper-style-books.git",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/parchment-of-books/"
     },
     {
         "h3FrontText": "Landing Page",
-        "imgFrontSrc": "/src/images/html-css/landing-page.png",
+        "imgFrontSrc": "src/images/html-css/landing-page.png",
         "pBackText": "Um projeto introdutório de Landing Page do curso DevQuest.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/landing-page",
         "internalDivBackSecondLinkHref": "https://pedro-isidoro.github.io/landing-page/"

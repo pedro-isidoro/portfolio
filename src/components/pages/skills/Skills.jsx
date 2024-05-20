@@ -1,20 +1,22 @@
 import { useEffect, useState } from "react";
+import skillsData from "../../../json/skills-cards.json"
 import "./skills.css";
 
 function Skills() {
     const [skills, setSkills] = useState([]);
 
     useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const response = await fetch(`./src/json/skills-cards.json`);
-          const data = await response.json();
-          setSkills(data);
-        } catch (error) {
-          console.error("Erro ao buscar habilidades!!");
-        }
-      };
-      fetchData();
+      // const fetchData = async () => {
+      //   try {
+      //     const response = await fetch(`./src/json/skills-cards.json`);
+      //     const data = await response.json();
+      //     setSkills(data);
+      //   } catch (error) {
+      //     console.error("Erro ao buscar habilidades!!", error);
+      //   }
+      // };
+      // fetchData();
+      setSkills(skillsData)
     }, []);
 
   return (
