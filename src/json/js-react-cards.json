@@ -1,6 +1,7 @@
 [
     {
         "h3FrontText": "Conversor",
+        "imgFrontSrc": "/images/html-css-javascript-react/conversor.webp",
         "pBackText": "Desafio proposta na imersão Alura, para se criar um conversor de valores.",
         "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/Alura-Desafio01",
         "internalDivBackSecondLinkHref": "https://alura-desafio01-4loruaozz-pedro-isidoros-projects.vercel.app/"
