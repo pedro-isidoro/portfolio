@@ -49,7 +49,7 @@ function JSReact() {
                     href={jsReactCard.internalDivBackSecondLinkHref}
                     target="_blank"
                   >
-                    GitHub Pages
+                    Vercel Page
                   </a>
                 </div>
               </div>
