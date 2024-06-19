@@ -14,6 +14,13 @@
         "internalDivBackSecondLinkHref": "https://my-recipes-three.vercel.app/"
     },
     {
+        "h3FrontText": "Meus Hobbies",
+        "imgFrontSrc": "/images/html-css-javascript-react/my-hobbies.png",
+        "pBackText": "Um projeto desenvolvido para apresentar meus hobbies em cards cada um. E consumindo API com Axios, quando necessário, além de estilização do todo com styled-components.",
+        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/my-hobbies",
+        "internalDivBackSecondLinkHref": "https://my-hobbies.vercel.app"
+    },
+    {
         "h3FrontText": "Portfólio",
         "imgFrontSrc": "/images/html-css-javascript-react/my-portfolio.webp",
         "pBackText": "Reconstrui meu antigo portifólio, trazendo meus novos conhecimentos adquiridos com o tempo de estudo, esforço e prática.",
