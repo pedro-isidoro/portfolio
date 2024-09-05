@@ -1,5 +1,5 @@
 import Formulary from '/src/components/form/Form.jsx'
-const CVToDownload = 'curriculo-pedro.pdf'
+const CVToDownload = "Profile.pdf";
 import './contacts.css'
 
 function Contacts(){
