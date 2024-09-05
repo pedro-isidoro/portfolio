@@ -3,14 +3,14 @@
        "LiClassName": "html flex-column",
        "DivFrontIClassName": "html fab fa-html5 html",
        "DivFrontPClassName": "html",
-       "DivFrontPText": "HTML 5",
+       "DivFrontPText": "HTML 5 (Intemediário)",
        "DivBackPText": "Linguagens de marcação de hipertexto, usada principalmente para desenvolver páginas da web ou aplicativos."
     },
     {
        "LiClassName": "css flex-column",
        "DivFrontIClassName": "css fab fa-css3-alt css",
        "DivFrontPClassName": "css",
-       "DivFrontPText": "CSS 3",
+       "DivFrontPText": "CSS 3 (Intemediário)",
        "DivBackPText": "Linguagem que usamos para estilizar um documento HTML."
     },
     {
@@ -40,5 +40,12 @@
        "DivFrontPClassName": "blue-color",
        "DivFrontPText": "React Router (Básico)",
        "DivBackPText": "Permite 'roteamento do lado do cliente', e isso traz experiências de usuário mais rápidas."
+    },
+    {
+       "LiClassName": "flex-column react-rounter blue-color",
+       "DivFrontIClassName": "css fab fa-css3-alt css",
+       "DivFrontPClassName": "css",
+       "DivFrontPText": "TailwindCSS (Básico)",
+       "DivBackPText": "É uma estrutura CSS de código aberto."
     }
 ]

@@ -1,10 +1,17 @@
 [
     {
-        "h3FrontText": "Conversor",
-        "imgFrontSrc": "/images/html-css-javascript-react/conversor.webp",
-        "pBackText": "Desafio proposta na imersão Alura, para se criar um conversor de valores.",
-        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/Alura-Desafio01",
-        "internalDivBackSecondLinkHref": "https://alura-desafio01-4loruaozz-pedro-isidoros-projects.vercel.app/"
+        "h3FrontText": "Dev Burguer",
+        "imgFrontSrc": "/images/html-css-javascript-react/dev-burguer.png",
+        "pBackText": "Usar da boa prática no códio jsx e na sua estilização com tailwindcss. A princípio era apenas para práticar a estilização com essa  biblioteca, mas ao criar uma landing Page com produtos em sua vitrine, me desafiei á adicionar cada um dos produtos, clicando no seu botão, ao carrinho.",
+        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/dev-burguer",
+        "internalDivBackSecondLinkHref": "https://dev-burguer-phi.vercel.app"
+    },
+    {
+        "h3FrontText": "Meus Hobbies",
+        "imgFrontSrc": "/images/html-css-javascript-react/my-hobbies.png",
+        "pBackText": "Um projeto desenvolvido para apresentar meus hobbies em cards cada um. E consumindo API com Axios, quando necessário, além de estilização do todo com styled-components.",
+        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/my-hobbies",
+        "internalDivBackSecondLinkHref": "https://my-hobbies.vercel.app"
     },
     {
         "h3FrontText": "Receitas Culinárias",
@@ -14,11 +21,11 @@
         "internalDivBackSecondLinkHref": "https://my-recipes-three.vercel.app/"
     },
     {
-        "h3FrontText": "Meus Hobbies",
-        "imgFrontSrc": "/images/html-css-javascript-react/my-hobbies.png",
-        "pBackText": "Um projeto desenvolvido para apresentar meus hobbies em cards cada um. E consumindo API com Axios, quando necessário, além de estilização do todo com styled-components.",
-        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/my-hobbies",
-        "internalDivBackSecondLinkHref": "https://my-hobbies.vercel.app"
+        "h3FrontText": "Conversor",
+        "imgFrontSrc": "/images/html-css-javascript-react/conversor.webp",
+        "pBackText": "Desafio proposta na imersão Alura, para se criar um conversor de valores.",
+        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/Alura-Desafio01",
+        "internalDivBackSecondLinkHref": "https://alura-desafio01-4loruaozz-pedro-isidoros-projects.vercel.app/"
     },
     {
         "h3FrontText": "Portfólio",
