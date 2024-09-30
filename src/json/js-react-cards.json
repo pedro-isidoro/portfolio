@@ -1,5 +1,12 @@
 [
     {
+        "h3FrontText": "Pokedex",
+        "imgFrontSrc": "/images/html-css-javascript-react/my-pokedex.png",
+        "pBackText": "Projeto onde criei 3 páginas: Home - Com uma apresentação simples do que é Pokémon. Pokedex - Onde apresento um input para filtragem por nome, os cards de apresentação dos pokemons. Perfil do pokemon - Onde apresento suas informações.",
+        "internalDivBackFirstLinkHref": "https://github.com/pedro-isidoro/my-pokedex",
+        "internalDivBackSecondLinkHref": "https://my-pokedex-gamma.vercel.app"
+    },
+    {
         "h3FrontText": "Dev Burguer",
         "imgFrontSrc": "/images/html-css-javascript-react/dev-burguer.png",
         "pBackText": "Usar da boa prática no códio jsx e na sua estilização com tailwindcss. A princípio era apenas para práticar a estilização com essa  biblioteca, mas ao criar uma landing Page com produtos em sua vitrine, me desafiei á adicionar cada um dos produtos, clicando no seu botão, ao carrinho.",
